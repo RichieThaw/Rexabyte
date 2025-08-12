@@ -1,0 +1,616 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+
+}
+#icon {
+  font-size: 33px;
+  transition: color 0.5s;
+}
+
+.nav-list-second button {
+  border: none;
+  background: none;
+}
+
+.nav-bar img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 40px;
+}
+.nav-bar img:hover {
+  transform: scale(1.1);
+}
+
+.nav-bar p {
+  font-size: 3rem;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 180px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  animation-name: gradient;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes gradient {
+  from { color: #002347;}
+  to { color: #FD6600;}
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0,0.9);
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  position: relative;
+  right: 30px;
+}
+
+.nav-list li {
+  font-size: 27px;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px 10px;
+  padding: 20px;
+  border-radius: 30px 10px 30px 10px;
+  transition: background-color 0.5s;
+}
+.nav-list li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-list a , .nav-list-second a {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+} 
+
+.nav-list a:visited , .nav-list-second a:visited {
+  background-color: #002347;
+}
+
+.nav-bar-second li {
+  list-style-type: none;
+}
+
+.nav-list-second li {
+  font-size: 20px;
+  border-radius: 30px;
+  transition: background-color 0.5s;
+  padding: 20px;
+}
+.nav-list-second li:hover {
+  background-color: #FD6600;
+}
+
+.nav-list-second a {
+  font-weight: 900;
+  font-size: 27px;
+  transition: color 0.5s;
+  color: rgb(255, 255, 255);
+}
+
+.nav-bar-second {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255,0.5);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  /*background-image: url(https://www.hollandamerica.com/content/dam/hal/inventory-assets/destinations/ports/hmc/port-hmc-half-moon-cay-bahamas-beach-c037.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;*/
+  z-index: 5;
+}
+.nav-bar-second ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome {
+  position: relative;
+}
+
+.welcome img {
+  width: 500px;
+  height: 500px;
+  margin-left: 800px;
+}
+
+.phrase {
+  position: absolute; 
+  left: 50px;
+  top: 250px;
+} 
+
+.phrase h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: start;
+  font-weight: bolder;
+  line-height: 130px;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+.phrase h2 {
+  position: absolute;
+  z-index: -2;
+  top: 50px;
+  font-size: 10em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  opacity: 0.15;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+.phrase h3 {
+  font-size: 2em;
+  text-align: start;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 80px;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+
+.three-things {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+#tt3 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+
+.three-things span {
+  width: 350px;
+}
+.three-things span p {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  line-height: 40px;
+  text-align: center;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+
+
+.head-one {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.welcome-text h1, .welcome-text p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 40px 20px;
+}
+
+.welcome-text h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.welcome-text p {
+  margin: 0 30px;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.welcome-text {
+  background-color: rgb(142, 142, 142);
+  border-radius: 30px 0 0 30px;
+  height: 500px;
+  color: #000000;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+  transition: transform 0.5s;
+}
+
+.welcome-text:hover {
+  background-color: #002347;
+  color: #ffffff;
+}
+.first img{
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  border-radius: 0 30px 30px 0;
+  transition: transform 0.5s;
+}
+
+.first img:hover, .welcome-text:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  margin: 70px 0;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  color: #43ced6; 
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+h2::after,
+h2::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+h2::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+h2:hover::after,
+h2:hover::before {
+  transform: scaleX(1);
+}
+
+.places {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  height: 900px;
+  overflow-x: scroll;
+}
+.places::-webkit-scrollbar {
+  display: none;
+}
+
+.hover {
+  transition: transform 0.5s;
+}
+
+.hover:hover {
+  transform: scale(1.03);
+}
+
+.places img {
+  width: 340px;
+  height: 300px;
+  margin: 0 20px;
+}
+
+.places p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 280px;
+  height: 550px;
+  line-height: 30px;
+  padding: 30px;
+  margin: -10px 20px;
+  background-color: rgb(142, 142, 142);
+  color: #000000;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.places p:hover {
+  background-color: #002347;
+  color: #ffffff;
+}
+
+.places h1 {
+  text-align: center;
+  text-transform: uppercase;
+  width: 330px;
+  margin-left: 20px;
+  margin-top: -50px;
+  padding: 5px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.places h1:hover {
+  background-color: #002347;
+  color: #ffffff;
+}
+
+
+.Food {
+  margin: 50px;
+}
+
+.Food img {
+  width: 400px;
+  height: 400px;
+  border-radius: 40%;
+  transition: transform 0.5s;
+}
+
+.Food img:hover, .Food p:hover, .Food h1:hover {
+  transform: scale(1.05);
+}
+
+.Food p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: rgb(142, 142, 142);
+  color: #000000;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+  border-radius: 20px;
+  width: 700px;
+  height: 230px;
+  padding: 30px;
+  margin-top: 60px;
+  line-height: 30px;
+  transition: transform 0.5s;
+}
+
+.one, .two {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.one h1, .two h1 {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  color: aqua;
+  z-index: 3;
+  width: 250px;
+  font-weight: 600;
+  border-radius: 10px 10px 40% 40%;
+  padding: 15px;
+  background-color: rgba(114, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+  margin-top: -120px;
+  margin-left: 65px;
+  transition: transform 0.5s;
+}
+
+
+.Food .two h1:hover, .Food .one h1:hover {
+  background-color: #002347;
+  color: #ffffff;
+}
+
+.Food p:hover {
+  background-color: #002347;
+  color: #ffffff;
+}
+
+#stay-hover {
+  transition: transform 0.5s;
+  margin: 40px 20px;
+  height: 500px;
+}
+
+#stay-hover:hover {
+  transform: scale(1.05);
+}
+
+.stays img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30px 10px 30px 10px;
+  margin: 40px 20px;
+  border: 2px solid #FD6600;
+}
+
+.stays {
+  margin: 100px;
+}
+
+.stays span {
+  color: #002347;
+  background-color: rgba(188, 188, 188, 0.9);
+  border-radius: 60px 10px 30px 10px;
+  margin-left: 10px;
+}
+
+.stays p {
+  width: 230px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: -30px;
+  transition: color 0.5s;
+}
+
+.stays p:hover {
+  color: #002347;
+}
+
+.stays button {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #002347;
+  color: white;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+
+.stays button:hover {
+  background-color: #ffffff;
+  color: #002347;
+}
+
+.stays ,.current {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+  transition: transform 0.5s;
+}
+
+.media h1 {
+  background-color: rgba(188, 188, 188, 0.9);
+  padding: 20px;
+  border-radius: 30px 10px 30px 10px;
+  box-shadow: 5px 5px 5px black;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+.media h1:hover {
+  background-color: #002347;
+  color: #ffffff;
+}
+
+
+.media i {
+  font-size: 60px;
+  color: rgba(161, 161, 161, 0.9);
+  transition: color 0.5s;
+  border: none;
+}
+
+.media a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#media:hover {
+  color: lightblue;
+  transform: scale(1.1);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  background-color: #002347;
+  width: 100%;
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.footer-column h3:hover, .footer-links  li a:hover,
+.footer-links li:hover {
+  color: lightblue;
+}
+
+.footer-column h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+  transition: color 0.5s;
+}
+
+.footer-column p {
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.footer-column h3::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--orange);
+  bottom: 0;
+  left: 0;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin: 0.7rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+#foot {
+  margin-right: 20px;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+}
+.footer-links a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.footer-bottom p {
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
