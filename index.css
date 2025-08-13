@@ -902,114 +902,89 @@ body {
   height: 80px;
 }
 
-@media screen and (max-width: 1024px) {
-
+/* Tablet screens */
+@media screen and (max-width: 768px) {
   .nav-bar {
-    width: 100%;
-  }
-
-  .nav-list a, .nav-bar p {
-    font-size: 13px;
-  }
-
-  .nav-bar-second a {
-    font-size: 13px;
-  }
-
-  .nav-list-second {
-    width: 100%;
-  }
-
-  #icon {
-    font-size: 13px;
-  }
-
-  .welcome img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .phrase {
-    position: static;
-    padding: 20px;
-  }
-
-  .phrase h1 {
-    font-size: 2.5em;
-    line-height: 60px;
-  }
-
-  .phrase h2 {
-    font-size: 5em;
-    margin-top: 20px;
-  }
-
-  .phrase h3 {
-    font-size: 1.5em;
-    line-height: 40px;
-  }
-
-  .phrase p {
-    font-size: 1em;
-    line-height: 30px;
-  }
-
-  .bundle, .bundle-one, .head-plus, .plus, .media, .Members {
     flex-direction: column;
     align-items: center;
   }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .nav-list li {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .nav-bar p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    position: static;
+  }
+  .nav-list-second ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .phrase {
+    text-align: center;
+    padding: 10px;
+  }
+  .phrase h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+  .phrase h2 {
+    font-size: 3em;
+  }
+  .bundle {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
-  .bundle img,
-  .news img,
-  .places img,
-  .beach img,
-  .mountain img,
-  .current img,
-  .stays img,
-  .asia img,
-  .map img {
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+  .nav-bar img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+  .nav-list li {
+    font-size: 18px;
+    padding: 8px;
+  }
+  .nav-list-second a {
+    font-size: 14px;
+  }
+  .phrase h1 {
+    font-size: 1.6em;
+  }
+  .phrase h3, .phrase p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+  }
+  .hover-underline {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .places, .beach, .mountain, .asia, .stays, .current {
+    width: 100%;
+    overflow-x: auto;
+    padding: 0;
+  }
+  .places img, .beach img, .mountain img, .asia img, .stays img, .current img {
     width: 90%;
     height: auto;
     margin: 10px auto;
   }
-
-  .news,
-  .map,
-  .asia,
-  .current,
-  .stays {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .new-info p {
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 20px;
-    font-size: 1.2em;
-  }
-
-  .new-info button {
-    font-size: 1em;
-    padding: 10px;
-    width: auto;
-  }
-
-  .pp {
-    width: 100%;
-    padding: 10px;
-  }
-
   .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    padding: 20px;
   }
-
-  .footer-column {
-    margin-bottom: 20px;
+  .footer-column h3 {
+    font-size: 1.2rem;
+  }
+  .footer-links li {
+    font-size: 0.9rem;
   }
 }
