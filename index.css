@@ -928,8 +928,12 @@ body {
     font-size: 0.9rem;
   }
 
+  .nav-bar-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
   
-
   .welcome img {
     width: 100%;
     height: auto;
@@ -1027,7 +1031,7 @@ body {
   }
 
   .nav-list-second {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
