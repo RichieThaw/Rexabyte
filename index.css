@@ -1014,66 +1014,107 @@ body {
 /* Mobile Screens */
 @media screen and (max-width: 768px) {
   .nav-bar {
+    width: 100%;
     flex-direction: row;
-    align-items: space-between;
-    text-align: center;
-  }
-
-  .nav-list {
-    flex-direction: row;
-    align-items: space-between;
-    margin-top: 10px;
-  }
-
-  .nav-list li {
-    margin: 10px 0;
+    justify-content: space-between;
     padding: 10px;
   }
 
-  .nav-list-second {
-    flex-direction: row;
-    align-items: space-between;
+  .nav-bar img {
+    width: 80px;
+    height: auto;
   }
 
-  .phrase h1 {
-    font-size: 1.8rem;
+  .nav-bar p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    position: static;
   }
 
-  .phrase h2 {
-    font-size: 2.5rem;
-  }
-
-  .phrase h3 {
-    font-size: 1rem;
-  }
-
-  .phrase p {
+  .nav-list a, .nav-bar-second a {
     font-size: 0.9rem;
   }
 
-  .bundle-one {
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
+  .nav-bar-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
   }
-
-  .bundle-one p {
+  
+  .welcome img {
     width: 100%;
     height: auto;
-    text-align: center;
-    margin-bottom: 10px;
+    margin: 0 auto;
   }
 
-  .places, .beach, .mountain, .asia, .stays, .current {
+  .phrase {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .phrase h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .phrase h2 {
+    font-size: 3rem;
+  }
+
+  .phrase h3 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .phrase p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .bundle, .bundle-one, .head-plus, .plus, .media, .Members {
     flex-direction: column;
     align-items: center;
+  }
+
+  .places img, .news img, .beach img, .mountain img,
+  .current img, .stays img, .asia img, .map img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .news, .map, .asia, .current, .stays {
     width: 100%;
-    overflow-x: auto;
+    margin: 0 auto;
+  }
+
+  .new-info p {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .new-info button {
+    font-size: 1rem;
+    padding: 10px;
+    width: auto;
+  }
+
+  .pp {
+    width: 100%;
+    padding: 10px;
   }
 
   .footer-content {
     flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
   }
 }
 
