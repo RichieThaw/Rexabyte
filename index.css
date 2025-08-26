@@ -933,8 +933,8 @@ body {
   }
 
   .nav-list-second {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 5px;
   }
 
@@ -1010,8 +1010,7 @@ body {
 @media screen and (max-width: 768px) {
   .nav-bar {
     flex-direction: row;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
   }
 
   .nav-list {
@@ -1031,7 +1030,7 @@ body {
 
   .nav-list-second {
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     gap: 10px;
   }
 
