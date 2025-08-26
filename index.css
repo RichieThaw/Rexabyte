@@ -1974,11 +1974,11 @@ body {
     height: auto;
   }
 
-  .phrase { padding: 15px;margin-top: 40px }
-  .phrase h1 { font-size: 1.8rem; }
-  .phrase h2 { font-size: 2.4rem; }
-  .phrase h3 { font-size: 1.2rem; }
-  .phrase p  { font-size: 1.1rem; }
+  .phrase { padding: 15px;margin-top: 80px }
+  .phrase h1 { font-size: 2.2rem; }
+  .phrase h2 { font-size: 2.8rem; }
+  .phrase h3 { font-size: 1.6rem; }
+  .phrase p  { font-size: 1.5rem; }
 
   .bundle-one {
     flex-direction: column;
@@ -2001,7 +2001,7 @@ body {
   }
 
 .pp h2 {
-   font-size: 0.4rem;
+   font-size: 0.1rem;
 }
  
  .pp h3 {
@@ -2013,12 +2013,18 @@ body {
  }
 
   .places img, .beach img, .mountain img,
-  .asia img, .stays img, .current img, .map img {
+  .asia img, .stays img, .map img {
     width: 100%;
     max-width: 85%;
     height: auto;
   }
 
+ .current img {
+   width: 50%;
+    max-width: 60%;
+    height: auto;
+ }
+ 
   .footer-content {
     flex-direction: column;
     text-align: center;
