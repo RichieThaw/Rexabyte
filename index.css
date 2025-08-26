@@ -1974,7 +1974,7 @@ body {
     height: auto;
   }
 
-  .phrase { padding: 15px;margin-top: 80px }
+  .phrase { padding: 15px;margin-top: 300px }
   .phrase h1 { font-size: 2.2rem; }
   .phrase h2 { font-size: 2.8rem; }
   .phrase h3 { font-size: 1.6rem; }
@@ -2001,11 +2001,11 @@ body {
   }
 
 .pp h2 {
-   font-size: 0.1rem;
+   font-size: 0.25rem;
 }
  
  .pp h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
  }
 
  .hover-underline {
@@ -2013,17 +2013,11 @@ body {
  }
 
   .places img, .beach img, .mountain img,
-  .asia img, .stays img, .map img {
+  .asia img, .stays img, .map img, .current img {
     width: 100%;
-    max-width: 85%;
+    max-width: 90%;
     height: auto;
   }
-
- .current img {
-   width: 50%;
-    max-width: 60%;
-    height: auto;
- }
  
   .footer-content {
     flex-direction: column;
