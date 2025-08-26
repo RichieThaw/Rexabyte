@@ -1921,7 +1921,7 @@ body {
   }
 
   .nav-bar img {
-    width: 80px;
+    width: 100px;
     height: auto;
     margin: 5px 0;
   }
@@ -1974,11 +1974,11 @@ body {
     height: auto;
   }
 
-  .phrase { padding: 15px; }
-  .phrase h1 { font-size: 1.6rem; }
-  .phrase h2 { font-size: 2.2rem; }
-  .phrase h3 { font-size: 1rem; }
-  .phrase p  { font-size: 0.9rem; }
+  .phrase { padding: 15px;margin-top: 40px }
+  .phrase h1 { font-size: 1.8rem; }
+  .phrase h2 { font-size: 2.4rem; }
+  .phrase h3 { font-size: 1.2rem; }
+  .phrase p  { font-size: 1.1rem; }
 
   .bundle-one {
     flex-direction: column;
@@ -2000,8 +2000,12 @@ body {
     overflow-x: auto;
   }
 
- .pp h2, .pp h3 {
-  font-size: 0.8rem;
+.pp h2 {
+   font-size: 0.4rem;
+}
+ 
+ .pp h3 {
+  font-size: 1rem;
  }
 
  .hover-underline {
@@ -2011,7 +2015,7 @@ body {
   .places img, .beach img, .mountain img,
   .asia img, .stays img, .current img, .map img {
     width: 100%;
-    max-width: 95%;
+    max-width: 85%;
     height: auto;
   }
 
