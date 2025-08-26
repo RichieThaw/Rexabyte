@@ -2000,6 +2000,14 @@ body {
     overflow-x: auto;
   }
 
+ .pp h2, .pp h3 {
+  font-size: 1rem;
+ }
+
+ .hover-underline {
+  font-size: 2.5rem;
+ }
+
   .places img, .beach img, .mountain img,
   .asia img, .stays img, .current img, .map img {
     width: 100%;
