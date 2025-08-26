@@ -1011,13 +1011,14 @@ body {
   .nav-bar {
     display: flex;
     flex-direction: row;
+       justify-content: space-between;
+      align-items: flex-start;
    width: 100%;
   }
 
   .nav-list {  
    display: flex;
    flex-direction: row;
-   align-items: flex-start;
   }
 
   .nav-list li a {
