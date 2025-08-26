@@ -1017,7 +1017,7 @@ body {
   .nav-list {  
    display: flex;
    flex-direction: row;
-   
+   margin-right: 50px;
   }
 
   .nav-list li {
@@ -1026,7 +1026,6 @@ body {
   .nav-bar-second {
    display: flex;
     flex-direction: row;
-   padding: 5px;
   }
 
   .nav-list-second {
