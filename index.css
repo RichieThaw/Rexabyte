@@ -1009,13 +1009,13 @@ body {
 /* Mobile Screens */
 @media screen and (max-width: 768px) {
   .nav-bar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
   }
 
   .nav-list {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-top: 10px;
   }
@@ -1030,7 +1030,7 @@ body {
   }
 
   .nav-list-second {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
   }
