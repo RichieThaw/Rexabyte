@@ -1017,10 +1017,10 @@ body {
   .nav-list {  
    display: flex;
    flex-direction: row;
-   margin-right: 50px;
   }
 
-  .nav-list li {
+  .nav-list li a {
+      margin-left: 20px;
   }
 
   .nav-bar-second {
