@@ -1,5 +1,5 @@
   * {
-  margin: 0;
+  margin: 0;   
   padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1017,11 +1017,10 @@ body {
   .nav-list {  
    display: flex;
    flex-direction: row;
-   margin-top: 10px;
-   margin-right: 25px;
   }
 
   .nav-list li {
+      margin-right: 25px;
   }
 
   .nav-bar-second {
