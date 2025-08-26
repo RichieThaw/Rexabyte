@@ -1015,8 +1015,10 @@ body {
   }
 
   .nav-list {  
-    
-    margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   margin-top: 10px;
+   margin-right: 25px;
   }
 
   .nav-list li {
