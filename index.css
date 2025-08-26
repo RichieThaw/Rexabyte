@@ -1011,6 +1011,7 @@ body {
   .nav-bar {
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
   }
 
   .nav-list {
@@ -1031,11 +1032,11 @@ body {
   .nav-list-second {
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
     gap: 10px;
   }
 
   .nav-list-second li {
-    width: 100%;
     text-align: center;
   }
 
