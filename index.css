@@ -902,160 +902,89 @@ body {
   height: 80px;
 }
 
+/* ---------------- Modern Phone Responsive Design ---------------- */
 
-/* ---------------- Responsive Design ---------------- */
-
-/* Tablet Screens */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+  /* Main Navbar */
   .nav-bar {
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 10px;
   }
 
   .nav-bar img {
-    width: 80px;
+    width: 60px;
     height: auto;
+    margin: 5px 0;
   }
 
   .nav-bar p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 5px 0;
-    position: static;
   }
 
-  .nav-list a, .nav-bar-second a {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .nav-list li {
+    margin: 6px 0;
+    padding: 6px;
+  }
+
+  .nav-list a {
     font-size: 0.9rem;
   }
 
+  /* Secondary Navbar */
   .nav-bar-second {
-    padding: 5px;
+    padding: 8px;
   }
 
   .nav-list-second {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 5px;
-  }
-
-  .nav-list-second li a {
-    font-size: 0.9rem;
-    padding: 6px 10px;
-  }
-
-  .welcome img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .phrase {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .phrase h1 { font-size: 2rem; line-height: 1.2; }
-  .phrase h2 { font-size: 3rem; }
-  .phrase h3 { font-size: 1.2rem; line-height: 1.4; }
-  .phrase p  { font-size: 1rem; line-height: 1.4; }
-
-  .bundle, .bundle-one, .head-plus, .plus, .media, .Members {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .places img, .news img, .beach img, .mountain img,
-  .current img, .stays img, .asia img, .map img {
-    width: 90%;
-    height: auto;
-    margin: 10px auto;
-  }
-
-  .news, .map, .asia, .current, .stays {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .new-info p {
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 15px;
-    font-size: 1rem;
-  }
-
-  .new-info button {
-    font-size: 1rem;
-    padding: 10px;
-    width: auto;
-  }
-
-  .pp {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-column {
-    margin-bottom: 20px;
-  }
-}
-
-/* Mobile Screens */
-@media screen and (max-width: 768px) {
-  .nav-bar {
     display: flex;
     flex-direction: row;
-       justify-content: space-between;
-      align-items: flex-start;
-   width: 100%;
-  }
-
-  .nav-list {  
-   display: flex;
-   flex-direction: row;
-  }
-
-  .nav-list li a {
-   display: block;
-  }
-
-  .nav-bar-second {
-   display: flex;
-    flex-direction: row;
-  }
-
-  .nav-list-second {
+    gap: 8px;
   }
 
   .nav-list-second li {
+    width: 100%;
+    text-align: center;
   }
 
   .nav-list-second li a {
     display: block;
-    font-size: 0.5rem;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 0.9rem;
   }
 
+  /* Hero Section */
   .welcome img {
     width: 100%;
     height: auto;
   }
 
-  .phrase { padding: 15px; }
+  .phrase {
+    padding: 15px;
+    text-align: center;
+  }
+
   .phrase h1 { font-size: 1.6rem; }
   .phrase h2 { font-size: 2.2rem; }
   .phrase h3 { font-size: 1rem; }
   .phrase p  { font-size: 0.9rem; }
 
-  .bundle-one {
+  /* Sections */
+  .bundle, .bundle-one, .places, .beach, .mountain,
+  .asia, .stays, .current, .media, .Members {
     flex-direction: column;
     align-items: center;
-    margin: 10px 0;
+    width: 100%;
+    margin: 15px auto;
   }
 
   .bundle-one p {
@@ -1065,40 +994,43 @@ body {
     margin-bottom: 10px;
   }
 
-  .places, .beach, .mountain, .asia, .stays, .current {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    overflow-x: auto;
-  }
-
   .places img, .beach img, .mountain img,
   .asia img, .stays img, .current img, .map img {
-    width: 100%;
-    max-width: 95%;
+    width: 95%;
     height: auto;
+    margin: 10px auto;
   }
 
+  /* News Section */
+  .new-info p {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .new-info button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin-top: 10px;
+  }
+
+  /* Footer */
   .footer-content {
     flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
+
+  .footer-column h3 { font-size: 1.2rem; }
+  .footer-links a   { font-size: 0.9rem; }
 }
 
-/* Small Mobile Screens */
 @media screen and (max-width: 480px) {
   .nav-bar img { width: 50px; }
-
-  .nav-bar p { font-size: 1.1rem; }
-
-  .nav-list a, .nav-list-second a {
-    font-size: 0.8rem;
-  }
-
-  .nav-list-second li a {
-    font-size: 0.85rem;
-    padding: 8px 0;
-  }
+  .nav-bar p   { font-size: 1rem; }
 
   .phrase h1 { font-size: 1.3rem; }
   .phrase h2 { font-size: 1.8rem; }
