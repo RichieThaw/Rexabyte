@@ -1921,13 +1921,13 @@ body {
   }
 
   .nav-bar img {
-    width: 60px;
+    width: 80px;
     height: auto;
     margin: 5px 0;
   }
 
   .nav-bar p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 5px 0;
   }
 
@@ -1943,7 +1943,7 @@ body {
   }
 
   .nav-list a {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   /* Secondary Navbar */
@@ -2001,11 +2001,11 @@ body {
   }
 
  .pp h2, .pp h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
  }
 
  .hover-underline {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
  }
 
   .places img, .beach img, .mountain img,
