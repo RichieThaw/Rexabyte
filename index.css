@@ -1051,19 +1051,18 @@ body {
     font-size: 1rem;
   }
 #icon {
-font-size: 1.3rem;
+font-size: 1.2rem;
 }
-
-
  
   /* Secondary Navbar */
   .nav-bar-second {
+       width: 100%;
   }
 
   .nav-list-second {
     display: flex;
     flex-direction: row;  
-    width: 100%;
+    width: 95%;
   }
 
   .nav-list-second li {
@@ -1143,6 +1142,8 @@ width: 90%;
  }
 .current p {
  width: 60%;
+   height: auto;
+ margin-top: 30px;
  text-align: center;
  font-size: 0.8rem;
  align-item: center;
@@ -1156,7 +1157,7 @@ width: 90%;
   width: 100%
  }
 .new-info p {
- width: 80%;
+ width: 90%;
  height: auto;
  padding: 10px;
  font-size: 1.1rem;
