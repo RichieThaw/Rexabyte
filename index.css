@@ -1053,13 +1053,13 @@ body {
 
   /* Secondary Navbar */
   .nav-bar-second {
-    padding: 8px;
+    padding: 2px;
   }
 
   .nav-list-second {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 2px;
   }
 
   .nav-list-second li {
@@ -1070,7 +1070,7 @@ body {
   .nav-list-second li a {
     display: block;
     width: 100%;
-    padding: 8px 0;
+    padding: 2px 0;
     font-size: 0.9rem;
   }
 
