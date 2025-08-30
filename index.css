@@ -1137,10 +1137,16 @@ font-size: 1.3rem;
 width: 100%;
  }
  .current img {
-width: 50%;
-  height: 50%;
+width: 75%;
+  height: 75%;
+  align-item: center;
  }
-
+.current p {
+ width: 30%;
+ text-align: center;
+ font-size: 1rem;
+ align-item: center;
+}
 
  .stays img {
   margin-left: 25px;
@@ -1158,12 +1164,13 @@ width: 50%;
 }
  
  .Members p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 20px;
+  padding: 10px;
  }
 
  .media h1 {
-font-size: 1.2rem;
+font-size: 1.1rem;
   margin-bottom: 10px;
  }
  .media a {
