@@ -1109,20 +1109,20 @@ font-size: 1.3rem;
   }
 
 .pp h2 {
-   font-size: 0.35rem;
+   font-size: 0.4rem;
  display: flex;
  flex-direction: column;
  
 }
  
  .pp h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
    display: flex;
  flex-direction: column;
   }
 
  .hover-underline {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
  }
 
   .places img, .beach img, .mountain img,
@@ -1133,7 +1133,7 @@ font-size: 1.3rem;
   }
 
 .scale-one p {
- margin-left: 14px;
+ margin-left: -10px;
 }
  
  .Members p {
@@ -1146,8 +1146,8 @@ font-size: 1.2rem;
   margin-bottom: 10px;
  }
  .media a {
-font-size: 1.3rem;
-  margin-bottom: 6px;
+font-size: 1.2rem;
+  margin-bottom: 10px;
  }
 
 
