@@ -539,170 +539,113 @@ body {
   text-transform: uppercase;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media (max-width: 992px) {
   .nav-bar p {
-    font-size: 2rem;
-    margin-left: 100px;
+    font-size: 2.2rem;
   }
-
   .nav-list li {
     font-size: 20px;
     padding: 10px;
   }
-
-  .phrase h1 {
-    font-size: 2.5em;
-    line-height: 70px;
-  }
-
-  .phrase h3 {
-    font-size: 1.8em;
-    margin-left: 50px;
-  }
-
   .photos img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
-
-  .head-one, .head-two {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
   .welcome-text, .welcome-text-two {
-    width: 90%;
-    height: auto;
-    margin: 20px 0;
-  }
-
-  .first img, .second img {
-    width: 90%;
-    height: auto;
-  }
-
-  .places {
-    flex-wrap: wrap;
-    justify-content: center;
-    height: auto;
-  }
-
-  .places img, .places p, .places h1 {
     width: 80%;
-    margin: 20px auto;
+    font-size: 1.2rem;
+  }
+  .first img, .second img {
+    width: 80%;
+    height: auto;
   }
 }
 
-/* Phones (≤ 600px) */
-@media screen and (max-width: 768px) {
-  /* Top nav bar */
-  .nav-bar {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0;
-    height: auto;
-  }
-
+/* Phones */
+@media (max-width: 768px) {
   .nav-bar img {
     width: 70px;
     height: 70px;
-    margin: 10px 0;
   }
-
   .nav-bar p {
+    font-size: 1.8rem;
+    margin-left: 10px;
     position: static;
-    margin: 5px 0;
-    font-size: 1.5rem;
   }
-
   .nav-list {
-    position: static;
-    right: 0;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
   .nav-list li {
-    margin: 5px 0;
-    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    padding: 8px;
   }
-
-  /* Second nav bar */
-  .nav-bar-second ul {
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-  }
-
   .phrase h1 {
-    font-size: 1.8em;
-    line-height: 40px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-left: 0;
     text-align: center;
-    margin: 10px;
   }
-
   .phrase h3 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    margin-left: 0;
     text-align: center;
-    margin: 10px;
   }
-
-  .photos {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .photos img {
     width: 150px;
     height: 150px;
-    margin: 10px 0;
+    margin: 5px;
   }
-
+  .head-one, .head-two {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
   .welcome-text, .welcome-text-two {
     width: 95%;
-    padding: 15px;
-    text-align: center;
-  }
-
-  .welcome-text img,
-  .welcome-text-two img,
-  #third img {
-    display: none; /* hide floating images */
-  }
-
-  .first img, .second img {
-    width: 100%;
-    height: auto;
-  }
-
-  .width-hover, .width-hover-sec {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .width-hover img, .width-hover-sec img {
-    width: 90%;
-    height: auto;
     margin: 10px 0;
   }
-
-  .media {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
+  .first img, .second img {
+    width: 95%;
+    height: auto;
   }
-
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
+  .places {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin: 20px;
+    height: auto;
   }
-
-  .footer-column {
-    margin-bottom: 20px;
+  .places img, .places p {
+    flex: 0 0 auto;
   }
 }
+
+/* Small Phones */
+@media (max-width: 480px) {
+  .hover-underline {
+    font-size: 1.5rem;
+  }
+  .welcome-text h1, .welcome-text-two h1 {
+    font-size: 1.2rem;
+  }
+  .welcome-text p, .welcome-text-two p {
+    font-size: 0.9rem;
+  }
+  .media h1 {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  .media i {
+    font-size: 35px;
+  }
+  .footer-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-column {
+    margin-bottom: 15px;
+  }
+}
+
