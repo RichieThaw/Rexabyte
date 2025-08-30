@@ -1059,7 +1059,6 @@ body {
     display: flex;
     flex-direction: row;  
     width: 100%;
-
   }
 
   .nav-list-second li {
@@ -1068,8 +1067,6 @@ body {
 
   .nav-list-second li a {
     display: block;
-    width: 100%;
-    padding: 2px 0;
     font-size: 0.9rem;
   }
 
@@ -1122,6 +1119,11 @@ body {
     max-width: 90%;
     height: auto;
   }
+
+ .Members p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+ }
  
   .footer-content {
     flex-direction: column;
