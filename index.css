@@ -1131,9 +1131,13 @@ font-size: 1.3rem;
     height: auto;
   }
 
- .current img {
-
+ .current {
+width: 100%;
  }
+ .current img {
+width: auto;
+ }
+
 
  .stays img {
   margin-left: 25px;
