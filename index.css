@@ -1136,17 +1136,17 @@ font-size: 1.3rem;
  }
 
  .stays img {
-  margin-left: 10px;
+  margin-left: 20px;
  }
  
 .new-info p {
- padding: 0px;
- width: 100%;
+ padding: 8px;
+ width: 80%;
 }
  
 .scale-one p {
- margin-left: -25px;
- margin-top: 15px;
+ margin-left: -30px;
+ margin-top: 25px;
 }
  
  .Members p {
