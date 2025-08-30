@@ -1052,7 +1052,7 @@ body {
   }
 #icon {
 font-size: 1.3rem;
- margin-right: 15px;
+ margin-right: 8px;
 }
 
 
@@ -1105,7 +1105,7 @@ font-size: 1.3rem;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: scroll;
   }
 
 .pp h2 {
@@ -1122,7 +1122,7 @@ font-size: 1.3rem;
   }
 
  .hover-underline {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
  }
 
   .places img, .beach img, .mountain img,
@@ -1132,8 +1132,21 @@ font-size: 1.3rem;
     height: auto;
   }
 
+ .current img {
+
+ }
+
+ .stays img {
+  margin-left: 10px;
+ }
+ 
+.new-info p {
+ padding: 10px;
+}
+ 
 .scale-one p {
- margin-left: -10px;
+ margin-left: -18px;
+ margin-top: 8px;
 }
  
  .Members p {
