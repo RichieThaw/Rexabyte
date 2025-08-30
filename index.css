@@ -1137,15 +1137,16 @@ font-size: 1.3rem;
 width: 100%;
  }
  .current img {
-width: 75%;
-  height: 75%;
+width: 90%;
+  height: 85%;
   align-item: center;
  }
 .current p {
- width: 30%;
+ width: 60%;
  text-align: center;
- font-size: 1rem;
+ font-size: 0.8rem;
  align-item: center;
+ padding: auto;
 }
 
  .stays img {
@@ -1153,7 +1154,10 @@ width: 75%;
  }
  .new-info {
   width: 100%
+ }
 .new-info p {
+ width: 80%;
+ height: auto;
  padding: 10px;
  font-size: 1.1rem;
 }
