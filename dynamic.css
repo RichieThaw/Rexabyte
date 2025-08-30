@@ -810,7 +810,7 @@ h2:hover::before {
   }
 
   .stays img {
-    width: 75%;
+    width: 90%;
     height: auto;
   }
 
@@ -878,11 +878,11 @@ h2:hover::before {
     padding: 10px 15px;
   }
 
-  .nav-list-second a {
-    font-size: 1.1rem;
+  .nav-list-second li a {
+    font-size: 0.9rem;
   }
   #icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .first img {
     border-radius: 50%;
@@ -1052,51 +1052,3 @@ h2:hover::before {
   }
 }
 
-@media (max-width: 400px) {
-  .nav-bar p {
-    font-size: 1.5rem;
-  }
-
-  .nav-list li {
-    font-size: 14px;
-  }
-
-  .nav-list-second a {
-    font-size: 16px;
-  }
-
-  .welcome img {
-    width: 200px;
-    height: 200px;
-  }
-
-  .phrase h1 {
-    font-size: 1.2em;
-    line-height: 30px;
-  }
-
-  .phrase h2 {
-    font-size: 2.5em;
-  }
-
-  .phrase h3 {
-    font-size: 0.8em;
-  }
-
-  h2 {
-    font-size: 1.8rem;
-  }
-
-  #tt3 {
-    font-size: 2rem;
-  }
-
-  .media h1 {
-    font-size: 1.2rem;
-    padding: 15px;
-  }
-
-  .media i {
-    font-size: 30px;
-  }
-}
