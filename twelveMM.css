@@ -538,3 +538,171 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .nav-bar p {
+    font-size: 2rem;
+    margin-left: 100px;
+  }
+
+  .nav-list li {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .phrase h1 {
+    font-size: 2.5em;
+    line-height: 70px;
+  }
+
+  .phrase h3 {
+    font-size: 1.8em;
+    margin-left: 50px;
+  }
+
+  .photos img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .head-one, .head-two {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .welcome-text, .welcome-text-two {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .first img, .second img {
+    width: 90%;
+    height: auto;
+  }
+
+  .places {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  .places img, .places p, .places h1 {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+/* Phones (≤ 600px) */
+@media screen and (max-width: 768px) {
+  /* Top nav bar */
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .nav-bar img {
+    width: 70px;
+    height: 70px;
+    margin: 10px 0;
+  }
+
+  .nav-bar p {
+    position: static;
+    margin: 5px 0;
+    font-size: 1.5rem;
+  }
+
+  .nav-list {
+    position: static;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .nav-list li {
+    margin: 5px 0;
+    padding: 10px;
+  }
+
+  /* Second nav bar */
+  .nav-bar-second ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .phrase h1 {
+    font-size: 1.8em;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .phrase h3 {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photos img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+  }
+
+  .welcome-text, .welcome-text-two {
+    width: 95%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .welcome-text img,
+  .welcome-text-two img,
+  #third img {
+    display: none; /* hide floating images */
+  }
+
+  .first img, .second img {
+    width: 100%;
+    height: auto;
+  }
+
+  .width-hover, .width-hover-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .width-hover img, .width-hover-sec img {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .media {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+}
