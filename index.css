@@ -1052,7 +1052,6 @@ body {
   }
 #icon {
 font-size: 1.3rem;
- margin-right: 8px;
 }
 
 
@@ -1141,12 +1140,13 @@ font-size: 1.3rem;
  }
  
 .new-info p {
- padding: 10px;
+ padding: 0px;
+ width: 100%;
 }
  
 .scale-one p {
- margin-left: -18px;
- margin-top: 8px;
+ margin-left: -25px;
+ margin-top: 15px;
 }
  
  .Members p {
