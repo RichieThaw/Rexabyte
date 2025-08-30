@@ -1151,7 +1151,7 @@ width: 90%;
 }
 
  .stays img {
-  margin-left: 22.5px;
+  margin-left: 22px;
  }
  .new-info {
   width: 100%
@@ -1159,8 +1159,9 @@ width: 90%;
 .new-info p {
  width: 90%;
  height: auto;
+ margin-bottom: 50px;
  padding: 10px;
- font-size: 1.1rem;
+ font-size: 1.5rem;
 }
  
 .scale-one p {
@@ -1169,7 +1170,7 @@ width: 90%;
 }
  
  .Members p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
   padding: 12px;
  }
