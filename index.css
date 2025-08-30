@@ -1050,7 +1050,13 @@ body {
   .nav-list a {
     font-size: 1rem;
   }
+#icon {
+font-size: 0.9rem;
+ margin-right: 6px;
+}
 
+
+ 
   /* Secondary Navbar */
   .nav-bar-second {
   }
@@ -1098,7 +1104,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    overflow-y: auto;
+    overflow-x: auto;
   }
 
 .pp h2 {
@@ -1122,8 +1128,18 @@ body {
 
  .Members p {
   font-size: 1.1rem;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
  }
+
+ .media h1 {
+font-size: 1.2rem;
+ }
+ #media {
+font-size: 1.2rem;
+  margin-bottom: 6px;
+ }
+
+
  
   .footer-content {
     flex-direction: column;
