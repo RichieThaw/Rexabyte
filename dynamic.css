@@ -810,7 +810,7 @@ h2:hover::before {
   }
 
   .stays img {
-    width: 100%;
+    width: 75%;
     height: auto;
   }
 
@@ -879,7 +879,19 @@ h2:hover::before {
   }
 
   .nav-list-second a {
-    font-size: 24px;
+    font-size: 1.1rem;
+  }
+  #icon {
+    font-size: 1rem;
+  }
+  .first img {
+    border-radius: 50%;
+  }
+  .Food h1 {
+    font-size: 1.1rem;
+    width: auto;
+    height: auto;
+    padding: auto;
   }
 
   .welcome {
@@ -934,7 +946,12 @@ h2:hover::before {
   #tt3 {
     font-size: 3rem;
   }
-
+.media h1 {
+  font-size: 1.2rem;
+}
+  .media a {
+    margin-bottom: 20px;
+  }
   .three-things span p {
     font-size: 1.1rem;
   }
