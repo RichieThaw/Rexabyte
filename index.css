@@ -1051,8 +1051,8 @@ body {
     font-size: 1rem;
   }
 #icon {
-font-size: 0.9rem;
- margin-right: 6px;
+font-size: 1.1rem;
+ margin-right: 12px;
 }
 
 
@@ -1069,6 +1069,7 @@ font-size: 0.9rem;
 
   .nav-list-second li {
     text-align: center;
+   padding: 8px;
   }
 
   .nav-list-second li a {
@@ -1128,14 +1129,15 @@ font-size: 0.9rem;
 
  .Members p {
   font-size: 1.1rem;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
  }
 
  .media h1 {
 font-size: 1.2rem;
+  margin-bottom: 10px;
  }
  #media {
-font-size: 1.2rem;
+font-size: 1.5rem;
   margin-bottom: 6px;
  }
 
