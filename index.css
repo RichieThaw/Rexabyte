@@ -1126,10 +1126,9 @@ font-size: 1.2rem;
  }
 
   .places img, .beach img, .mountain img,
-  .asia img, .stays img, .map img, .current img {
+  .asia img, .stays img, .map img{
     width: 100%;
    max-width: 90%;
-    height: auto;
     overflow-y: scroll;
   }
 
