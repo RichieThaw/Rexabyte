@@ -1021,60 +1021,41 @@ body {
 .nav-bar {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .nav-bar img {
-    width: 100px;
-    height: auto;
-    margin: 5px 0;
   }
 
   .nav-bar p {
-    font-size: 1.4rem;
-    margin: 5px 0;
+    position: static;
+    margin: 10px 0;
+    text-align: center;
   }
 
   .nav-list {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .nav-list li {
-    margin: 6px 0;
-    padding: 6px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
   }
 
-  .nav-list a {
-    font-size: 1rem;
-  }
-#icon {
-font-size: 1.2rem;
-}
- 
-  /* Secondary Navbar */
-  .nav-bar-second {
-       width: 100%;
-  }
-
-  .nav-list-second {
-    display: flex;
-    flex-direction: row;  
-    width: 95%;
+  .nav-bar-second ul {
+    flex-wrap: wrap;
   }
 
   .nav-list-second li {
-    text-align: center;
-   padding: 4px 0;
+    padding: 10px 15px;
   }
 
   .nav-list-second li a {
-    display: block;
     font-size: 0.9rem;
   }
-
+ #icon {
+    font-size: 1.2rem;
+  }
   .welcome img {
     width: 100%;
     height: auto;
