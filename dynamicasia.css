@@ -771,10 +771,13 @@ font-size: 1.2rem;
     font-size: 0.9rem;
   }
 
-  .hero-content {
-    margin-top: 150px;
+  .hero-content h1 {
+        font-size: 1.4rem;
   }
-  
+
+   .hero-content p {
+        font-size: 1rem;
+  }  
     .welcome img {
     width: 100%;
     height: auto;
