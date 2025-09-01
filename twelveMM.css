@@ -718,11 +718,11 @@ body {
     font-size: 1.3rem;
     width: 280px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -20px;
+    margin-top: -30px;
     padding: auto;
   }
 
-  #add-photo {
+  #add-photo img {
     margin-left: 15px;
   }
   
