@@ -701,23 +701,24 @@ body {
   }
 
   .places img {
-    width: 270px;            /* smaller size for phones */
+    width: 280px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin: 8px;
+    margin: 8px 15px 0 15px;
   }
 
   .places p {
-    width: 200px;    
+    width: 210px;    
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -1px;
+    margin-top: 1px;
+    padding: auto;
   }
 
   .places h1 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     width: 260px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -2px;
+    margin-top: 2px;
     padding: auto;
   }
   
