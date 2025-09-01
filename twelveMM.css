@@ -699,12 +699,12 @@ body {
   }
 
   .places h1 {
-    width: 95%;
+    width: 90%;
     margin-top: 1px;
   }
 
   .places p {
-    width: 95%;
+    width: 90%;
     height: 100%;
     font-size: 0.9rem;
     text-align: center;
@@ -713,7 +713,7 @@ body {
   }
 
   #add-photo img {
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .media {
     flex-direction: column;
