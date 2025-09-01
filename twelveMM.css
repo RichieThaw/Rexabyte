@@ -539,130 +539,161 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 992px) {
-  .nav-bar p {
-    font-size: 2.2rem;
-  }
-  .nav-list li {
-    font-size: 20px;
+/* ============================= */
+/* 📱 Improved Responsive Section */
+/* ============================= */
+
+/* Tablets (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+  .nav-bar {
+    flex-wrap: wrap;
     padding: 10px;
   }
-  .photos img {
-    width: 200px;
-    height: 200px;
-  }
-  .welcome-text, .welcome-text-two {
-    width: 80%;
-    font-size: 1.2rem;
-  }
-  .first img, .second img {
-    width: 80%;
-    height: auto;
-  }
-}
-
-/* Phones */
-@media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-  }
 
   .nav-bar p {
-    position: static;
-    margin: 10px 0;
-    text-align: center;
+    font-size: 1.8rem;
+    margin-left: 0;
   }
 
   .nav-list {
-    position: static;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .nav-list li {
-    font-size: 18px;
-    padding: 10px;
-    margin: 10px 5px;
-  }
-
-  .nav-bar-second ul {
-    flex-wrap: wrap;
-  }
-
-  .nav-list-second li {
-    padding: 10px 15px;
-  }
- .nav-list-second li a {
-    font-size: 0.9rem;
-  }
-  #icon {
-    font-size: 1.2rem;
-  }
-.phrase h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    margin-left: 0;
-    text-align: center;
-  }
-  .phrase h3 {
-    font-size: 1.2rem;
-    margin-left: 0;
-    text-align: center;
-  }
-  .photos img {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-  }
   .head-one, .head-two {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
   }
+
   .welcome-text, .welcome-text-two {
     width: 95%;
-    margin: 10px 0;
+    text-align: center;
   }
+
   .first img, .second img {
-    width: 95%;
+    width: 90%;
     height: auto;
   }
+
   .places {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
     height: auto;
+    margin: 20px;
   }
-  .places img, .places p {
-    flex: 0 0 auto;
+
+  .places img, .places p, .places h1 {
+    width: 90%;
+    margin: 15px auto;
   }
 }
 
-/* Small Phones */
-@media (max-width: 480px) {
-  .hover-underline {
-    font-size: 1.5rem;
+/* Phones (≤ 600px) */
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
   }
-  .welcome-text h1, .welcome-text-two h1 {
-    font-size: 1.2rem;
+
+  .nav-bar img {
+    width: 60px;
+    height: 60px;
   }
-  .welcome-text p, .welcome-text-two p {
-    font-size: 0.9rem;
+
+  .nav-bar p {
+    font-size: 1.3rem;
+    margin: 5px 0;
   }
-  .media h1 {
-    font-size: 1rem;
-    padding: 5px;
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
   }
-  .media i {
-    font-size: 35px;
+
+  .nav-list li {
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 18px;
   }
+
+  .nav-bar-second ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .phrase h1 {
+    font-size: 1.5em;
+    line-height: 35px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .phrase h3 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photos img {
+    width: 120px;
+    height: 120px;
+    margin: 8px 0;
+  }
+
+  .welcome-text, .welcome-text-two {
+    width: 100%;
+    text-align: center;
+  }
+
+  .welcome-text img,
+  .welcome-text-two img,
+  #third img {
+    display: none; /* hide floating side images */
+  }
+
+  .width-hover, .width-hover-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .width-hover img, .width-hover-sec img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .places {
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+
+  .places img, .places p, .places h1 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .media {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
   .footer-content {
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    text-align: center;
   }
+
   .footer-column {
     margin-bottom: 15px;
   }
 }
-
