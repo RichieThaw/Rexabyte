@@ -629,7 +629,13 @@ body {
   }
  #icon {
     font-size: 1.2rem;
-  }  .phrase h1 {
+  } 
+
+  .hover-underline {
+    font-size: 1.3rem;
+  }
+  
+  .phrase h1 {
     font-size: 1.5em;
     line-height: 35px;
     text-align: center;
@@ -647,20 +653,25 @@ body {
   }
 
   .photos img {
-    width: 120px;
-    height: 120px;
-    margin: 8px 0;
+    width: 150px;
+    height: 150px;
+    margin: 12px 0;
   }
 
   .welcome-text, .welcome-text-two {
     width: 100%;
     text-align: center;
   }
-
+  
+.welcome-text p, .welcome-text-two p{  
+  font-size: 1.1rem;
+  text-align: center;
+}
+  
   .welcome-text img,
   .welcome-text-two img,
   #third img {
-    display: none; /* hide floating side images */
+    display: none; 
   }
 
   .width-hover, .width-hover-sec {
@@ -669,28 +680,40 @@ body {
   }
 
   .width-hover img, .width-hover-sec img {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 10px 0;
   }
 
-  .places {
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-  }
-
-  .places img, .places p, .places h1 {
+  .places img {
     width: 100%;
-    margin: 10px 0;
+    height: auto;
+    margin: 0;
   }
 
+  .places h1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .places p {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+  }
   .media {
     flex-direction: column;
     gap: 12px;
     text-align: center;
   }
 
+  .media h1 {
+  font-size: 1.2rem;
+}
+  .media a {
+    margin-bottom: 20px;
+  }
   .footer-content {
     flex-direction: column;
     align-items: center;
