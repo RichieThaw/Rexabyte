@@ -591,41 +591,45 @@ body {
   }
 }
 
-/* Phones (≤ 600px) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
     align-items: center;
-    padding: 10px 0;
-  }
-
-  .nav-bar img {
-    width: 60px;
-    height: 60px;
   }
 
   .nav-bar p {
-    font-size: 1.3rem;
-    margin: 5px 0;
+    position: static;
+    margin: 10px 0;
+    text-align: center;
   }
 
   .nav-list {
-    flex-direction: column;
-    align-items: center;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .nav-list li {
-    margin: 8px 0;
-    padding: 8px;
     font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
   }
 
   .nav-bar-second ul {
-    flex-direction: column;
-    gap: 8px;
+    flex-wrap: wrap;
   }
 
-  .phrase h1 {
+  .nav-list-second li {
+    padding: 10px 15px;
+  }
+
+  .nav-list-second li a {
+    font-size: 0.9rem;
+  }
+ #icon {
+    font-size: 1.2rem;
+  }  .phrase h1 {
     font-size: 1.5em;
     line-height: 35px;
     text-align: center;
