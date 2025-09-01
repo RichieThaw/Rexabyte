@@ -1121,30 +1121,34 @@ body {
  .places p {
   font-size: 1.2rem;
   width: 330px;
+  margin-left: 30px;
  }
 
  .beach p , .mountain p {
-  margin-left: 20px;
-  margin-bottom: -10px;
+    width: 330px;
+  margin-left: 30px;
+  margin-bottom: 10px;
   font-size: 1.2rem;
  }
 
  .asia p {
-  margin-left: 10px;
-  margin-bottom: -10px;
+    width: 330px;
+  margin-left: 30px;
+  margin-bottom: 10px;
   font-size: 1.2rem;
  }
  
  .current img {
 width: 350px;
-  height: 350px;
+  height: 300px;
   margin: 0px 30px;
  }
 .current p {
- width: 50%;
-   height: auto;
+ width: 350;
+ height: auto;
+ margin-left: 40px;
  text-align: center;
- font-size: 1.1rem;
+ font-size: 1.2rem;
  align-item: center;
  padding: 2px;
 }
