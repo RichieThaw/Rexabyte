@@ -906,24 +906,24 @@ h2:hover::before {
     width: 290px;    
     height: 320px;
     flex: 0 0 auto;          /* no shrinking */
-    margin: 0px 30px 0 30px;
+    margin: 0px 35px;
   }
 
   .places p {
-    width: 200px;
-    height: 500px;
+    width: 290px;
+    height: 700px;
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -20px;
+    margin-top: -18px;
     padding: auto;
     margin-left: 25px;
   }
 
   .places h1 {
     font-size: 1.3rem;
-    width: 300px;            /* smaller size for phones */
+    width: 390px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -35px;
+    margin-top: -40px;
     margin-left: 30px;
     padding: auto;
   }
