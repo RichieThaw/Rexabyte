@@ -770,6 +770,11 @@ font-size: 1.2rem;
     display: block;
     font-size: 0.9rem;
   }
+
+  .hero {
+    margin-top: 100px;
+  }
+  
     .welcome img {
     width: 100%;
     height: auto;
