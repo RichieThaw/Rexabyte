@@ -1080,7 +1080,7 @@ body {
     margin-bottom: 10px;
   }
 
-  .beach, .mountain, .asia, .stays, .current {
+  .beach, .mountain, .asia, .stays{
     display: flex;
    width: 100%;
     flex-direction: row;  
@@ -1089,9 +1089,9 @@ body {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
- .places {
+ .places , .current {
   display: flex;
-   width: 90%;
+   width: 90%; 
     flex-direction: row;  
     flex-wrap: nowrap;    
     overflow-x: auto;  
