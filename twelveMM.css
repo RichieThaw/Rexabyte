@@ -700,14 +700,24 @@ body {
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
 
-  .places img, 
-  .places p, 
-  .places h1 {
-    width: 240px;            /* smaller size for phones */
+  .places img {
+    width: 270px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
     margin: 8px;
   }
 
+  .places p {
+    width: 260px;            /* smaller size for phones */
+    flex: 0 0 auto;          /* no shrinking */
+    margin: -1px;
+  }
+
+  .places h1 {
+    width: 220px;            /* smaller size for phones */
+    flex: 0 0 auto;          /* no shrinking */
+    margin: 0;
+  }
+  
   .media {
     flex-direction: column;
     gap: 12px;
