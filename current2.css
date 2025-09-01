@@ -323,4 +323,117 @@ justify-content: space-around;
   text-transform: uppercase;
 }
 
+/* ============================= */
+/* RESPONSIVE STYLES             */
+/* ============================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .nav-list li {
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+  }
+
+  .first-content h1, 
+  .first-content p,
+  .second-content h2, 
+  .second-content p,
+  .six-content h2, 
+  .six-content p {
+    padding: 20px 80px;
+  }
+
+  .third-content, .fourth-content, .seventh-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card img, .card p {
+    width: 280px;
+  }
+
+  .fifth-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fifth-content img {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+ .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar p {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+
+  .nav-bar-second ul {
+    flex-wrap: wrap;
+  }
+
+  .nav-list-second li {
+    padding: 10px 15px;
+  }
+
+  .nav-list-second li a {
+    font-size: 0.9rem;
+  }
+  #icon {
+    font-size: 1.2rem;
+  }  
+  
+  .first-content h1, 
+  .first-content p,
+  .second-content h2, 
+  .second-content p,
+  .six-content h2, 
+  .six-content p {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+
+  .third-content, .fourth-content, .seventh-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img, .card p {
+    width: 90%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+}
+
 
