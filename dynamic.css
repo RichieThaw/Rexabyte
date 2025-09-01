@@ -903,27 +903,27 @@ h2:hover::before {
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
   .places img {
-    width: 290px;    
+    width: 300px;    
     height: 320px;
     flex: 0 0 auto;          /* no shrinking */
     margin: 0px 35px;
   }
 
   .places p {
-    width: 290px;
-    height: 700px;
+    width: 300px;
+    height: 550px;
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -18px;
+    margin-top: -10px;
     padding: auto;
-    margin-left: 25px;
+    margin-left: 30px;
   }
 
   .places h1 {
     font-size: 1.3rem;
-    width: 390px;            /* smaller size for phones */
+    width: 300px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -40px;
+    margin-top: -38px;
     margin-left: 30px;
     padding: auto;
   }
