@@ -771,13 +771,6 @@ font-size: 1.2rem;
     font-size: 0.9rem;
   }
 
-  .hero-content h1 {
-        font-size: 1.3rem !important;
-  }
-
-   .hero-content p,.hero-content a {
-        font-size: 1rem !important;
-  }  
     .welcome img {
     width: 100%;
     height: auto;
