@@ -700,7 +700,7 @@ body {
 
   .places h1 {
     width: 95%;
-    margin-top: -1px;
+    margin-top: 1px;
   }
 
   .places p {
