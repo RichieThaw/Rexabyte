@@ -1089,6 +1089,9 @@ body {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
+ .current {
+  height: auto;
+  margin-left: 15px;
   }
 
 .pp h2 {
@@ -1110,16 +1113,32 @@ body {
 
   .places img, .beach img, .mountain img,
   .asia img, .stays img, .map img{
-    width: 300px;
+    width: 330px;
     height: 270px;
    margin: 0 30px;
   }
 
+ .places p {
+  font-size: 1.2rem;
+  width: 330px;
+ }
+
+ .beach p , .mountain p {
+  margin-left: 20px;
+  margin-bottom: -10px;
+  font-size: 1.2rem;
+ }
+
+ .asia p {
+  margin-left: 10px;
+  margin-bottom: -10px;
+  font-size: 1.2rem;
+ }
+ 
  .current img {
-width: 90%;
-  height: auto;
-  margin-bottom: 100px;
-  align-item: center;
+width: 350px;
+  height: 350px;
+  margin: 0px 30px;
  }
 .current p {
  width: 50%;
