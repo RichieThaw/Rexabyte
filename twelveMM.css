@@ -707,15 +707,18 @@ body {
   }
 
   .places p {
-    width: 260px;            /* smaller size for phones */
+    width: 200px;    
+    font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin: -1px;
+    margin-top: -1px;
   }
 
   .places h1 {
-    width: 220px;            /* smaller size for phones */
+    font-size: 1.1rem;
+    width: 260px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin: 0;
+    margin-top: -2px;
+    padding: auto;
   }
   
   .media {
