@@ -916,15 +916,15 @@ h2:hover::before {
     flex: 0 0 auto;          /* no shrinking */
     margin-top: -10px;
     padding: auto;
-    margin-left: 30px;
+    margin-left: 35px;
   }
 
   .places h1 {
     font-size: 1.3rem;
     width: 300px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -38px;
-    margin-left: 30px;
+    margin-top: -36px;
+    margin-left: 35px;
     padding: auto;
   }
 
