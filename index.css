@@ -1120,29 +1120,29 @@ body {
 
  .places p {
   font-size: 1.3rem;
-  width: 325px;
-  margin-left: 70px;
+  width: 326px;
+    margin-left: 25px;
  }
 
  .beach p , .mountain p {
-    width: 325px;
+    width: 326px;
   margin-left: 25px;
   font-size: 1.3rem;
  }
 
  .asia p {
-  width: 325px;
+  width: 326px;
   margin-left: 10px;
   font-size: 1.3rem;
  }
  
  .current img {
-width: 400px;
-  height: 500px;
-  margin: 0px 20px;
+width: 300px;
+  height: 300px;
+  margin: 0px 10px;
  }
 .current p {
- width: 350px;
+ width: 300;
  height: auto;
  margin-left: 30px;
  text-align: center;
@@ -1152,9 +1152,9 @@ width: 400px;
 }
 
  .stays img {
-  width: 250px;
-   height: 250px;
-  margin-left: 22px;
+  width: 200px;
+   height: 200px;
+  margin-left: 30px;
  }
  .new-info {
   width: 100%
@@ -1167,10 +1167,6 @@ width: 400px;
  font-size: 1.1rem;
 }
  
-.scale-one p {
- margin-left: -30px;
- margin-top: 30px;
-}
  
  .Members p {
   font-size: 1.1rem;
