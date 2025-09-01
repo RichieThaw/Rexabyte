@@ -884,13 +884,67 @@ h2:hover::before {
   #icon {
     font-size: 1.2rem;
   }
+  
   .first img {
     border-radius: 50%;
   }
+  
   .Food h1 {
     font-size: 1.1rem;
     width: auto;
     height: auto;
+    padding: auto;
+  }
+  
+  .Food img {
+    width: 270px;
+    height: 270px;
+  }
+
+  .Food p {
+    font-size: 1rem;
+    padding: auto;
+  }
+
+  .one, .two {
+    margin: 10px 40px;
+  }
+
+  #stay-hover img {
+   margin-right: 15px;
+  }
+  
+  .places, .Food, .stays{
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  }
+  .places img {
+    width: 300px;    
+    height: 320px;
+    flex: 0 0 auto;          /* no shrinking */
+    margin: 0px 35px;
+  }
+
+  .places p {
+    width: 300px;
+    height: 550px;
+    font-size: 1rem;
+    flex: 0 0 auto;          /* no shrinking */
+    margin-top: -10px;
+    padding: auto;
+    margin-left: 35px;
+  }
+
+  .places h1 {
+    font-size: 1.3rem;
+    width: 300px;            /* smaller size for phones */
+    flex: 0 0 auto;          /* no shrinking */
+    margin-top: -36px;
+    margin-left: 35px;
     padding: auto;
   }
 

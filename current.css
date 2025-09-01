@@ -375,22 +375,13 @@ transition: color 0.5s;
 
 .footer-column p {
 font-size: 1.1rem;
-background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
 background-clip: text; 
 -webkit-background-clip: text; 
 -webkit-text-fill-color: transparent;
 font-weight: 600;
 }
 
-.footer-column h3::after {
-content: '';
-position: absolute;
-width: 50px;
-height: 2px;
-background-color: var(--orange);
-bottom: 0;
-left: 0;
-}
+
 
 .footer-column h3:hover, .footer-links  li a:hover,
 .footer-links li:hover {
@@ -433,4 +424,65 @@ font-weight: 600;
 padding-bottom: 2rem;
 text-align: center;
 text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar p {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+
+  .nav-bar-second ul {
+    flex-wrap: wrap;
+  }
+
+  .nav-list-second li {
+    padding: 10px 15px;
+  }
+
+     .nav-list-second li a {
+    font-size: 0.9rem;
+  }
+  #icon {
+    font-size: 1.2rem;
+  }
+
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+    
+    .hero p {
+        'font-size: 1rem;
+    }
+    
+
+    .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+    width: 100%;
+  }
 }

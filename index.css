@@ -1021,66 +1021,45 @@ body {
 .nav-bar {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .nav-bar img {
-    width: 100px;
-    height: auto;
-    margin: 5px 0;
   }
 
   .nav-bar p {
-    font-size: 1.4rem;
-    margin: 5px 0;
+    position: static;
+    margin: 10px 0;
+    text-align: center;
   }
 
   .nav-list {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .nav-list li {
-    margin: 6px 0;
-    padding: 6px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
   }
 
-  .nav-list a {
-    font-size: 1rem;
-  }
-#icon {
-font-size: 1.2rem;
-}
- 
-  /* Secondary Navbar */
-  .nav-bar-second {
-       width: 100%;
-  }
-
-  .nav-list-second {
-    display: flex;
-    flex-direction: row;  
-    width: 95%;
+  .nav-bar-second ul {
+    flex-wrap: wrap;
   }
 
   .nav-list-second li {
-    text-align: center;
-   padding: 4px 0;
+    padding: 10px 15px;
   }
 
   .nav-list-second li a {
-    display: block;
     font-size: 0.9rem;
   }
-
+ #icon {
+    font-size: 1.2rem;
+  }
   .welcome img {
     width: 100%;
     height: auto;
   }
-
- 
 
   .phrase { padding: 15px;margin-top: 300px }
   .phrase h1 { font-size: 2.2rem; }
@@ -1101,11 +1080,28 @@ font-size: 1.2rem;
     margin-bottom: 10px;
   }
 
-  .places, .beach, .mountain, .asia, .stays, .current {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    overflow-y: scroll;
+  .beach, .mountain, .asia, .stays{
+    display: flex;
+   width: 100%;
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  }
+ .places , .current {
+  display: flex;
+   width: 90%; 
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  }
+  
+ .current {
+  height: auto;
+  margin-left: 15px;
   }
 
 .pp h2 {
@@ -1127,32 +1123,47 @@ font-size: 1.2rem;
 
   .places img, .beach img, .mountain img,
   .asia img, .stays img, .map img{
-    width: 100%;
-   max-width: 90%;
-   align-item: center;
-    overflow-y: scroll;
+    width: 330px;
+    height: 270px;
+   margin: 0 30px;
   }
 
- .current {
-width: 100%;
+ .places p {
+  font-size: 1.3rem;
+  width: 326px;
+  margin-left: -10px;
  }
+
+ .beach p , .mountain p {
+    width: 326px;
+  margin-left: 25px;
+  font-size: 1.3rem;
+ }
+
+ .asia p {
+  width: 326px;
+  margin-left: 10px;
+  font-size: 1.3rem;
+ }
+ 
  .current img {
-width: 90%;
-  height: auto;
-  margin-bottom: 100px;
-  align-item: center;
+width: 350px;
+  height: 250px;
+  margin: 30px 20px 100px 20px;
  }
 .current p {
- width: 50%;
-   height: auto;
+ width: 346px;
+ height: auto;
+ margin-left: 22px;
+ margin-top: -10px;
  text-align: center;
- font-size: 1.1rem;
- align-item: center;
- padding: 2px;
+ font-size: 1.5rem;
 }
 
  .stays img {
-  margin-left: 22px;
+  width: 280px;
+   height: 250px;
+  margin: 30px 25px;
  }
  .new-info {
   width: 100%
@@ -1165,10 +1176,6 @@ width: 90%;
  font-size: 1.1rem;
 }
  
-.scale-one p {
- margin-left: -30px;
- margin-top: 30px;
-}
  
  .Members p {
   font-size: 1.1rem;
