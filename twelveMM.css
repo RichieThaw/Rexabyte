@@ -691,9 +691,9 @@ body {
 
   .places {
     display: flex;
-    flex-direction: row;     /* force horizontal row */
-    flex-wrap: nowrap;       /* single line */
-    overflow-x: auto;        /* horizontal scroll */
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
     overflow-y: hidden;
     height: auto;
     margin: 20px 5px;
@@ -703,23 +703,27 @@ body {
   .places img {
     width: 280px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin: 8px 15px 0 15px;
+    margin: 8px 30px 0 30px;
   }
 
   .places p {
-    width: 210px;    
+    width: 220px;    
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: 1px;
+    margin-top: 8px;
     padding: auto;
   }
 
   .places h1 {
-    font-size: 1.2rem;
-    width: 260px;            /* smaller size for phones */
+    font-size: 1.3rem;
+    width: 270px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: 2px;
+    margin-top: 4px;
     padding: auto;
+  }
+
+  #add-photod {
+    margin-left: 20px;
   }
   
   .media {
