@@ -907,11 +907,11 @@ h2:hover::before {
   }
 
   .one, .two {
-    margin: 10px 30px;
+    margin: 10px 40px;
   }
 
   .stays img {
-   margin-right: 5px;
+   margin-right: 15px;
   }
   
   .places, .Food, .stays{
@@ -948,7 +948,7 @@ h2:hover::before {
     padding: auto;
   }
 
-  .Food {
+  .Food h2 {
 margin-top: 150px;
   }
 
