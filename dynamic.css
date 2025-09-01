@@ -905,13 +905,14 @@ h2:hover::before {
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
   .places img {
-    width: 290px;            /* smaller size for phones */
+    width: 290px;    
+    height: 320px;
     flex: 0 0 auto;          /* no shrinking */
     margin: 8px 30px 0 30px;
   }
 
   .places p {
-    width: 230px;    
+    width: 290px;    
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
     margin-top: -22px;
@@ -922,7 +923,8 @@ h2:hover::before {
     font-size: 1.3rem;
     width: 280px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -30px;
+    margin-top: -40px;
+    margin-left: 20px;
     padding: auto;
   }
 
