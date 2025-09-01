@@ -429,6 +429,7 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
+  border-radius: 50%;
   top: 370px;
   right: 60px;
   z-index: -1;
@@ -628,23 +629,23 @@ body {
     font-size: 0.9rem;
   }
  #icon {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   } 
 
   .hover-underline {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   
   .phrase h1 {
-    font-size: 1.5em;
-    line-height: 35px;
-    text-align: center;
+    font-size: 1.25em;
+    line-height: 20px;
+    justify-content: center;
     margin: 10px;
   }
 
   .phrase h3 {
     font-size: 1em;
-    text-align: center;
+        justify-content: center;
   }
 
   .photos {
@@ -680,11 +681,13 @@ body {
   }
 
   .width-hover img, .width-hover-sec img {
-    width: 80%;
+    width: 50%;
     height: auto;
     margin: 10px 0;
   }
-
+  .width-hover img:hover , .width-hover-sec img:hover {
+    width: 80%
+  }
   .places img {
     width: 100%;
     height: auto;
@@ -693,14 +696,18 @@ body {
 
   .places h1 {
     width: 100%;
-    margin-left: 0;
+    margin-top: -20px;
   }
 
   .places p {
     width: 100%;
-    height: auto;
+    height: 80%;
     margin: 0;
-    padding: 20px;
+    padding: 5px;
+  }
+
+  #add-photo img {
+    margin-right: 50px;
   }
   .media {
     flex-direction: column;
