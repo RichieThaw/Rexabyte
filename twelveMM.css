@@ -710,7 +710,7 @@ body {
     width: 230px;    
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -10px;
+    margin-top: -22px;
     padding: auto;
   }
 
@@ -718,12 +718,12 @@ body {
     font-size: 1.3rem;
     width: 280px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -4px;
+    margin-top: -14px;
     padding: auto;
   }
 
   #add-photod {
-    margin-left: -10px;
+    margin-right: -10px;
   }
   
   .media {
