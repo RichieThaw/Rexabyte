@@ -894,7 +894,7 @@ h2:hover::before {
     padding: auto;
   }
 
-  .places {
+  .places, .Food, .stays{
     display: flex;
     flex-direction: row;  
     flex-wrap: nowrap;    
