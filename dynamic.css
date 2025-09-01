@@ -904,6 +904,27 @@ h2:hover::before {
     margin: 20px 5px;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
+  .places img {
+    width: 290px;            /* smaller size for phones */
+    flex: 0 0 auto;          /* no shrinking */
+    margin: 8px 30px 0 30px;
+  }
+
+  .places p {
+    width: 230px;    
+    font-size: 1rem;
+    flex: 0 0 auto;          /* no shrinking */
+    margin-top: -22px;
+    padding: auto;
+  }
+
+  .places h1 {
+    font-size: 1.3rem;
+    width: 280px;            /* smaller size for phones */
+    flex: 0 0 auto;          /* no shrinking */
+    margin-top: -30px;
+    padding: auto;
+  }
 
   .welcome {
     display: flex;
