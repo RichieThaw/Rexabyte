@@ -563,26 +563,43 @@ body {
 
 /* Phones */
 @media (max-width: 768px) {
-  .nav-bar img {
-    width: 70px;
-    height: 70px;
+    flex-direction: column;
+    align-items: center;
   }
+
   .nav-bar p {
-    font-size: 1.8rem;
-    margin-left: 10px;
     position: static;
+    margin: 10px 0;
+    text-align: center;
   }
+
   .nav-list {
+    position: static;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .nav-list li {
     font-size: 18px;
-    margin: 5px;
-    padding: 8px;
+    padding: 10px;
+    margin: 10px 5px;
   }
-  .phrase h1 {
+
+  .nav-bar-second ul {
+    flex-wrap: wrap;
+  }
+
+  .nav-list-second li {
+    padding: 10px 15px;
+  }
+ .nav-list-second li a {
+    font-size: 0.9rem;
+  }
+  #icon {
+    font-size: 1.2rem;
+  }
+.phrase h1 {
     font-size: 1.8rem;
     line-height: 2.2rem;
     margin-left: 0;
