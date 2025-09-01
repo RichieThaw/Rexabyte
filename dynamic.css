@@ -884,16 +884,36 @@ h2:hover::before {
   #icon {
     font-size: 1.2rem;
   }
+  
   .first img {
     border-radius: 50%;
   }
+  
   .Food h1 {
     font-size: 1.1rem;
     width: auto;
     height: auto;
     padding: auto;
   }
+  
+  .Food img {
+    width: 270px;
+    height: 270px;
+  }
 
+  .Food p {
+    font-size: 1rem;
+    padding: auto;
+  }
+
+  .one, .two {
+    margin: 10px 30px;
+  }
+
+  .stays img {
+   margin-right: 5px;
+  }
+  
   .places, .Food, .stays{
     display: flex;
     flex-direction: row;  
@@ -927,6 +947,11 @@ h2:hover::before {
     margin-left: 35px;
     padding: auto;
   }
+
+  .Food {
+margin-top: 150px;
+  }
+
 
   .welcome {
     display: flex;
