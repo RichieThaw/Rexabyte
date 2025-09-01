@@ -1121,7 +1121,7 @@ body {
  .places p {
   font-size: 1.3rem;
   width: 326px;
-  margin-left: -12px;
+  margin-left: -10px;
  }
 
  .beach p , .mountain p {
@@ -1139,12 +1139,12 @@ body {
  .current img {
 width: 350px;
   height: 250px;
-  margin: 30px 20px 50px 20px;
+  margin: 30px 20px 100px 20px;
  }
 .current p {
  width: 346px;
  height: auto;
- margin-left: 18px;
+ margin-left: 22px;
  margin-bottom: 20px;
  text-align: center;
  font-size: 1.5rem;
