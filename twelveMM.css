@@ -690,7 +690,7 @@ body {
   }
 
   .hover {
-    margin: 35px;
+    margin: 150px;
   }
   .places img {
     width: 100%;
@@ -700,7 +700,7 @@ body {
 
   .places h1 {
     width: 95%;
-    margin-top: -5px;
+    margin-top: -1px;
   }
 
   .places p {
@@ -713,7 +713,7 @@ body {
   }
 
   #add-photo img {
-    margin-right: 35px;
+    margin-right: 20px;
   }
   .media {
     flex-direction: column;
