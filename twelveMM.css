@@ -690,31 +690,30 @@ body {
   }
 
   .hover {
-    margin-bottom: 30px;
-    height: auto;
+    margin: 35px;
   }
   .places img {
     width: 100%;
-    height: 60%;
+    height: auto;
     margin: 0;
   }
 
   .places h1 {
-    width: 100%;
-    margin-top: -10px;
+    width: 95%;
+    margin-top: -5px;
   }
 
   .places p {
-    width: 100%;
+    width: 95%;
     height: 100%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     margin: 0;
     padding: 5px;
   }
 
   #add-photo img {
-    margin-right: 40px;
+    margin-right: 35px;
   }
   .media {
     flex-direction: column;
