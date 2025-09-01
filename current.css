@@ -375,22 +375,13 @@ transition: color 0.5s;
 
 .footer-column p {
 font-size: 1.1rem;
-background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
 background-clip: text; 
 -webkit-background-clip: text; 
 -webkit-text-fill-color: transparent;
 font-weight: 600;
 }
 
-.footer-column h3::after {
-content: '';
-position: absolute;
-width: 50px;
-height: 2px;
-background-color: var(--orange);
-bottom: 0;
-left: 0;
-}
+
 
 .footer-column h3:hover, .footer-links  li a:hover,
 .footer-links li:hover {
