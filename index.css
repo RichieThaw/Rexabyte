@@ -1091,7 +1091,7 @@ body {
   }
  .places {
   display: flex;
-   width: 100%;
+   width: 90%;
     flex-direction: row;  
     flex-wrap: nowrap;    
     overflow-x: auto;  
