@@ -900,18 +900,18 @@ h2:hover::before {
     flex-wrap: nowrap;    
     overflow-x: auto;  
     overflow-y: hidden;
-    height: auto;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
   .places img {
     width: 290px;    
     height: 320px;
     flex: 0 0 auto;          /* no shrinking */
-    margin: 8px 30px 0 30px;
+    margin: 0px 30px 0 30px;
   }
 
   .places p {
-    width: 290px;    
+    width: 200px;
+    height: 500px;
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
     margin-top: -20px;
@@ -921,10 +921,10 @@ h2:hover::before {
 
   .places h1 {
     font-size: 1.3rem;
-    width: 310px;            /* smaller size for phones */
+    width: 300px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -38px;
-    margin-left: 25px;
+    margin-top: -35px;
+    margin-left: 30px;
     padding: auto;
   }
 
