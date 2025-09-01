@@ -772,10 +772,10 @@ font-size: 1.2rem;
   }
 
   .hero-content h1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
   }
 
-   .hero-content p {
+   .hero-content p,.hero-content a {
         font-size: 1rem;
   }  
     .welcome img {
