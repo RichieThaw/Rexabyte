@@ -894,6 +894,17 @@ h2:hover::before {
     padding: auto;
   }
 
+  .places {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
+    overflow-y: hidden;
+    height: auto;
+    margin: 20px 5px;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  }
+
   .welcome {
     display: flex;
     flex-direction: column;
