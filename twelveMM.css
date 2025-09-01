@@ -718,12 +718,12 @@ body {
     font-size: 1.3rem;
     width: 280px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -14px;
+    margin-top: -20px;
     padding: auto;
   }
 
-  #add-photod {
-    margin-right: -10px;
+  #add-photo {
+    margin-left: 15px;
   }
   
   .media {
