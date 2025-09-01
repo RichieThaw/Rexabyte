@@ -901,7 +901,6 @@ h2:hover::before {
     overflow-x: auto;  
     overflow-y: hidden;
     height: auto;
-    margin: 20px 5px;
     -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
   .places img {
@@ -915,16 +914,17 @@ h2:hover::before {
     width: 290px;    
     font-size: 1rem;
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -22px;
+    margin-top: -20px;
     padding: auto;
+    margin-left: 25px;
   }
 
   .places h1 {
     font-size: 1.3rem;
-    width: 280px;            /* smaller size for phones */
+    width: 310px;            /* smaller size for phones */
     flex: 0 0 auto;          /* no shrinking */
-    margin-top: -40px;
-    margin-left: 20px;
+    margin-top: -38px;
+    margin-left: 25px;
     padding: auto;
   }
 
