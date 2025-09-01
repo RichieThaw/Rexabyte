@@ -910,7 +910,7 @@ h2:hover::before {
     margin: 10px 40px;
   }
 
-  .stays img {
+  #stay-hover img {
    margin-right: 15px;
   }
   
@@ -947,11 +947,6 @@ h2:hover::before {
     margin-left: 35px;
     padding: auto;
   }
-
-  .Food h2 {
-margin-top: 150px;
-  }
-
 
   .welcome {
     display: flex;
