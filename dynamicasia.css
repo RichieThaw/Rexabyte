@@ -824,64 +824,48 @@ transform: scale(1.05);*/
   }
 
   /* Places carousel */
-  .main {
-    padding: 8px;
-    gap: 12px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-  }
-  .one {
-    min-width: 85vw;
-    scroll-snap-align: start;
-    margin: 0 8px;
-  }
+.main, .sec-main, .stays{
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  } 
   #a {
     width: 100%;
     height: auto;
   }
 
-  /* Food sections stack */
-  .food-one, .food-two {
-    flex-direction: column;
-    align-items: center;
-    margin: 40px 16px;
-    gap: 16px;
-  }
+
   .food-one img, .food-two img {
     width: 100%;
     height: auto;
   }
-  .food-a, .food-b {
+ 
+
+  media {
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 20px;
+  }
+
+  .media h1 {
+  font-size: 1.2rem;
+}
+  .media a {
+    margin-bottom: 20px;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
     width: 100%;
   }
 
-  /* Hotels carousel */
-  .stays {
-    gap: 12px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    padding: 12px;
-  }
-  #stay-hover {
-    min-width: 70vw;
-    scroll-snap-align: start;
-    margin: 8px;
-  }
-  .stays img {
-    width: 70vw;
-    height: auto;
-  }
-
-  /* Footer stacks */
-  .footer-content {
-    flex-direction: column;
-    gap: 24px;
-    padding: 32px 16px;
-  }
-  .footer-column h3 {
-    font-size: 1.2rem;
-  }
-  .footer-links li {
-    font-size: 0.95rem;
-  }
 }
