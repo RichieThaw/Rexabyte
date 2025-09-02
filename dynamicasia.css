@@ -711,57 +711,6 @@ transform: scale(1.05);*/
   text-transform: uppercase;
 }
 
-
-/* ----------------------------- */
-/* Responsive for 768px & Laptops */
-/* ----------------------------- */
-
-/* Laptops / small desktops */
-@media (min-width: 992px) and (max-width: 1440px) {
-  .nav-bar {
-    padding: 0 32px;
-    justify-content: space-between;
-  }
-  .nav-bar p {
-    margin-left: 60px;
-    font-size: 2rem;
-  }
-  .photos, .sec-photos {
-    gap: 24px;
-    margin: 80px 32px;
-    flex-wrap: wrap;
-  }
-  .photos img, .sec-photos img {
-    width: 320px;
-    height: 240px;
-  }
-  .three-things {
-    flex-direction: column;
-    align-items: center;
-    margin: 70px 0;
-  }
-
-  .three-things span {
-    width: 80%;
-    margin-bottom: 40px;
-  }
-  .food-one, .food-two {
-    margin: 60px 32px;
-    gap: 32px;
-  }
-  .food-one img, .food-two img {
-    width: 50%;
-    height: auto;
-  }
-  .food-a, .food-b {
-    width: 50%;
-  }
-  .footer-content {
-    padding: 40px 32px;
-  }
-}
-
-/* Tablets & 768px width */
 @media (max-width: 768px) {
    .nav-bar {
     flex-direction: column;
