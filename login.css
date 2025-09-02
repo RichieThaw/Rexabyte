@@ -228,3 +228,66 @@ body {
 .click button:hover {
   background-color: rgb(103, 103, 103,0.5);
 }
+
+/* Laptop screens (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .nav-bar p {
+    font-size: 2.2rem;
+    left: -100px;
+  }
+
+  .search {
+    left: 300px;
+    width: 200px;
+  }
+
+  .login-box {
+    top: 250px;
+    width: 350px;
+  }
+}
+
+/* Tablet screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar p {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+  
+  .login-box {
+    width: 85%;
+    top: 250px;
+    height: auto;
+    padding: 20px;
+    align-items: center
+  }
+
+  .input-info input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .click button {
+    width: 100%;
+    font-size: 18px;
+  }
+}
