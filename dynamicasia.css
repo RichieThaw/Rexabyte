@@ -871,11 +871,12 @@ transform: scale(1.05);*/
   }
 .main {
       width: 90%;
-    margin: -50px 10px;
+    margin: -50px 20px;
 }
   
 .food-two {
     margin-left: -40px;
+  width: 95%;
   }
   
   #a img {
@@ -888,8 +889,8 @@ transform: scale(1.05);*/
   }
 
   .food-two img {
-    margin-top: 60px;
-    margin-left: -30px;
+    margin-top: 80px;
+    margin-left: -40px;
   }
 
 .food-two h1, .food-one h1 {
