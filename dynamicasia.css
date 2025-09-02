@@ -870,10 +870,11 @@ transform: scale(1.05);*/
     margin-bottom: 40px;
   }
 .main {
-  margin: 20px;
+      width: 80%;
+
 }
   
-  .one, .food-two {
+.food-two {
     margin-left: -40px;
   }
   
