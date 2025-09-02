@@ -12,8 +12,9 @@ body {
 }
 
 #icon {
-  font-size: 33px;
+   font-size: 30px;
   transition: color 0.5s;
+  color: #ffffff;  
 }
 
 .nav-list-second button {
