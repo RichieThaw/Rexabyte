@@ -803,7 +803,7 @@ transform: scale(1.05);*/
   }
 
   .hover-underline {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   .welcome {
@@ -849,13 +849,14 @@ transform: scale(1.05);*/
    .photos {
      display: flex;
     flex-direction: column;
-     align-item: center;
+     align-items: center;
+     
    }
 
   .photos img {
     width: 170px;
     height: 170px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
    .three-things {
@@ -868,17 +869,24 @@ transform: scale(1.05);*/
     width: 80%;
     margin-bottom: 40px;
   }
-
+.main {
+  margin: 20px;
+}
+  
   .one, .food-two {
     margin-left: -40px;
   }
   #a img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
   }
   .food-two img, .food-one img {
     width: 300px;
     height: 250px;
+  }
+
+  .food-two img {
+    margin: 40px 20px;
   }
 
 .food-two h1, .food-one h1 {
@@ -903,10 +911,10 @@ transform: scale(1.05);*/
   }
 
 .stays {
-margin-left: -40px;
+margin-left: -20px;
 }
 
-  media {
+  .media {
     flex-direction: column;
     text-align: center;
     margin: 40px 20px;
