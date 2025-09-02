@@ -876,8 +876,9 @@ transform: scale(1.05);*/
   .one, .food-two {
     margin-left: -40px;
   }
+  
   #a img {
-    width: 250px;
+    width: 200px;
     height: 200px;
   }
   .food-two img, .food-one img {
@@ -886,7 +887,8 @@ transform: scale(1.05);*/
   }
 
   .food-two img {
-    margin: 40px 20px;
+    margin-top: 40px;
+    margin-left: -15px;
   }
 
 .food-two h1, .food-one h1 {
@@ -911,7 +913,7 @@ transform: scale(1.05);*/
   }
 
 .stays {
-margin-left: -20px;
+margin-left: -10px;
 }
 
   .media {
@@ -922,6 +924,8 @@ margin-left: -20px;
 
   .media h1 {
   font-size: 1.2rem;
+    margin-bottom: 20px;
+
 }
   .media a {
     margin-bottom: 20px;
