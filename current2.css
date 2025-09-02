@@ -14,7 +14,6 @@ body {
 #icon {
   font-size: 30px;
   transition: color 0.5s;
-  color: #ffffff;
 }
 
 .nav-list-second button {
@@ -90,7 +89,7 @@ list-style-type: none;
 
 .nav-list-second li {
 font-size: 20px;
-border-radius: 40%;
+border-radius: 30px;
 transition: background-color 0.5s ;
 padding: 20px;
 }
@@ -141,15 +140,12 @@ justify-content: space-around;
 .first-content h1, .second-content h2, .six-content h2 {
   font-size: 40px;
   font-weight: 700;
+  color: #76FF7A;
 }
 
 .first-content p, .second-content p, .six-content p {
   font-size: 20px;
   line-height: 30px;
-}
-
-.second-content h2, .six-content h2 {
-  color: #FD6600;
 }
 
 .second-content p, .six-content p {
@@ -169,23 +165,36 @@ justify-content: space-around;
   border-radius: 20px 20px 0 0;
 }
 
+.card {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
 
 .card h3 {
   font-size: 28px;
   font-weight: 600;
-  color: #FD6600;
-  background-color: white;
+  color: #76FF7A;
+  background-color: gray;
   padding: 20px;
-  margin-top: -6px;
+  margin-top: -8px;
 }
 
 .card p {
   width: 350px;
-  font-size: 15px;
-  color: gray;
+  height: 250px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
   padding: 20px;
-  background-color: white;
+  background-color: gray;
   border-radius: 0 0 20px 20px;
+  transition: color 0.5s;
+}
+
+.card p:hover {
+  color: rgb(0, 0, 0);
 }
 
 .fifth-content {
@@ -204,7 +213,7 @@ justify-content: space-around;
 .fifth-content h2 {
   font-size: 35px;
   font-weight: 600;
-  color: #FD6600;
+  color: #76FF7A;
   margin: 20px 0;
   text-transform: uppercase;
 }
@@ -223,16 +232,21 @@ justify-content: space-around;
 }
 
 .one {
-  background-color: white;
+  background-color: #D0F0C0;
   margin: 0 20px;
   padding: 50px;
   border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+.one:hover {
+  transform: translateY(-10px);
 }
 
 .icon i {
   width: 70px;
   height: 70px;
-  background: #FD6600;
+  background-color: #002347;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -244,15 +258,15 @@ justify-content: space-around;
 
 .content h3{
   font-size: 20px;
-  color: #FD6600;
-  font-weight: 500;
+  color: #002347;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .content p {
   font-size: 15px;
-  color: gray;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -310,6 +324,7 @@ justify-content: space-around;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.5s;
+  
 }
 
 .footer-bottom p {
@@ -323,6 +338,9 @@ justify-content: space-around;
   text-align: center;
   text-transform: uppercase;
 }
+
+
+
 
 /* ============================= */
 /* RESPONSIVE STYLES             */
