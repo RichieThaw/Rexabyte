@@ -480,7 +480,7 @@ h2:hover::before {
 }
 
 .stays p {
-  width: 230px;
+  width: 300px;
   font-size: 20px;
   font-weight: 500;
   padding: 20px;
@@ -494,11 +494,12 @@ h2:hover::before {
 }
 
 .stays button {
-  width: 100px;
-  height: 80px;
+  width: 150px;
+  height: 70px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 10px;
+  margin-top: 15px;
   border: none;
   background-color: #002347;
   color: white;
