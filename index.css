@@ -1095,7 +1095,9 @@ body {
   .phrase h1 { font-size: 2.2rem; }
   .phrase h2 { font-size: 2.8rem; }
   .phrase h3 { font-size: 1.6rem; }
-  .phrase p  { font-size: 1.5rem; }
+  .phrase p  { font-size: 1.5rem;
+               margin-right: 10px;
+             }
 
   .bundle-one {   
    width: 100%;
