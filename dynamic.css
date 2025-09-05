@@ -124,7 +124,7 @@ body {
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
   z-index: 5;
-  padding: 20px;
+  padding: 10px;
 }
 
 .nav-bar-second ul {
@@ -186,7 +186,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.phrase h2, .phrase h1{
+.phrase h3, .phrase h1{
   overflow: hidden;
   text-wrap: nowrap;
   animation: animate 3s steps(30) infinite alternate-reverse; 
@@ -339,6 +339,7 @@ h2:hover::before {
 
 .hover {
   transition: transform 0.5s;
+  margin: 50px 0;
 }
 
 .hover:hover {
