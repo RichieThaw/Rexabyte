@@ -326,6 +326,7 @@ body {
 
 .places {
   display: flex;
+  justify-content: center;
   overflow-y: scroll;
   margin: 10px 100px;
 }
@@ -405,7 +406,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   width: 400px;
   height: 350px;
-   bottom: 50px;
+   bottom: 75px;
 
   line-height: 50px;
   font-size: 25px;
@@ -447,6 +448,8 @@ body {
 }
 .beach {
   display: flex;
+   justify-content: space-between;
+
   overflow-x: scroll;
   width: 630px;
   height: 450px;
@@ -497,6 +500,8 @@ body {
 
 .mountain {
   display: flex;
+    justify-content: space-between;
+
   overflow-x: scroll;
   width: 630px;
   margin: 20px 50px;
