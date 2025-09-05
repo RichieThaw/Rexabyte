@@ -403,7 +403,6 @@ body {
  
 .new-info p {
   position: absolute;
-  bottom: 20px;
   background-color: rgba(255, 255, 255, 0.7);
   width: 400px;
   height: 350px;
@@ -451,7 +450,7 @@ body {
   overflow-x: scroll;
   width: 630px;
   height: 450px;
-  margin: 20px;
+  margin: 20px 50px;
 }
 
 #scale-two, #scale-three {
@@ -501,7 +500,7 @@ body {
   justify-content: center;
   overflow-x: scroll;
   width: 630px;
-  margin: 20px;
+  margin: 20px 50px;
 }
 
 .mountain img {
@@ -562,8 +561,7 @@ body {
 .current {
   display: flex;
   justify-content: space-between;
-  margin: 0px 80px;
- padding: 20px
+  margin: 0px 100px;
 }
 .current img {
   width: 500px;
@@ -608,7 +606,7 @@ body {
 .stays {
    display: flex;
   justify-content: space-between;
-  margin: 0px 200px;
+  margin: 0px 180px;
 }
 
 #stay-hover {
@@ -670,7 +668,7 @@ body {
   display: flex;
   justify-content: space-between;
   overflow-x: scroll;
-  margin: 10px 250px;
+  margin: 10px 230px;
 }
 
 .asia::-webkit-scrollbar , .current::-webkit-scrollbar ,
@@ -741,13 +739,13 @@ body {
 
 .pp {
   background-color: #002347;
-  width: 1325px;
   padding: 10px;
+ width: 100%;
   margin: 50px 0px;
 }
 .pp h1, .pp h2 , .pp h3 {
   text-align: center;
-  margin: 100px 50px;
+  margin: 100px 30px;
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(255, 255, 255);
@@ -1091,12 +1089,14 @@ body {
     height: auto;
   }
 
-  .phrase { padding: 15px;margin-top: 300px }
+  .phrase { padding: 15px;
+           margin-top: 300px;
+           margin-right: 25px;
+ }
   .phrase h1 { font-size: 2.2rem; }
   .phrase h2 { font-size: 2.8rem; }
   .phrase h3 { font-size: 1.6rem; }
   .phrase p  { font-size: 1.5rem;
-               margin-right: 10px;
              }
 
   .bundle-one {   
