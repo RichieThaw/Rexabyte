@@ -566,6 +566,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0px 40px;
+ padding: 10px;
 }
 .current img {
   width: 500px;
@@ -577,7 +578,7 @@ body {
 
 .current p {
   font-size: 3.5rem;
-  margin-left: 52px;
+  margin-left: 72px;
   
   margin-top: -140px;
   text-transform: uppercase;
