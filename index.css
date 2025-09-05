@@ -326,7 +326,7 @@ body {
 
 .places {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   overflow-y: scroll;
   margin: 10px;
 }
@@ -344,7 +344,7 @@ body {
   height: 400px;
   border-radius: 20px 100px 20px 20px;
   border: 2px solid #FD6600;
-  margin: 50px 40px;
+  margin: 50px 50px;
   transition: transform 2s;
 }
 
@@ -406,7 +406,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   width: 400px;
   height: 350px;
-   bottom: 90px;
+   bottom: 100px;
 
   line-height: 50px;
   font-size: 25px;
@@ -572,7 +572,7 @@ body {
   width: 500px;
   height: 400px;
   border-radius: 100px 10px 10px 10px;
-  margin: 20px 50px;
+  margin: 20px;
   border: 2px solid #FD6600;
 }
 
@@ -582,7 +582,10 @@ body {
   
   margin-top: -140px;
   text-transform: uppercase;
-  color:  #002347;
+ background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
