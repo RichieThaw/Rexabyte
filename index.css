@@ -354,7 +354,7 @@ body {
   font-weight: bold;
   color: rgb(0, 0, 0);
   top: -130px;
-  left: 42px;
+  left: 52px;
   padding-left: 20px;
   padding: 10px;
   transition: transform 4s;
@@ -406,7 +406,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   width: 400px;
   height: 350px;
-   bottom: 100px;
+   bottom: 110px;
 
   line-height: 50px;
   font-size: 25px;
@@ -565,8 +565,8 @@ body {
 .current {
   display: flex;
   justify-content: space-between;
-  margin: 0px 100px;
- padding: 30px;
+  margin: 0px 40px;
+ padding: 20px;
 }
 .current img {
   width: 500px;
