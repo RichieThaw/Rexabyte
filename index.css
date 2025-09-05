@@ -187,7 +187,7 @@ body {
     width: 0ch;
   }
   to {
-    width: 20ch;
+    width: 23ch;
   }
 }
 
@@ -328,7 +328,7 @@ body {
   display: flex;
   justify-content: center;
   overflow-y: scroll;
-  margin: 10px 100px;
+  margin: 10px;
 }
 
 .scale-one {
@@ -406,7 +406,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   width: 400px;
   height: 350px;
-   bottom: 75px;
+   bottom: 90px;
 
   line-height: 50px;
   font-size: 25px;
@@ -468,7 +468,7 @@ body {
 .beach img {
   width: 285px;
   height: 300px;
-  margin: 40px 5px;
+  margin: 40px 10px;
   border-radius: 30px 10px 10px 10px;
   border: 2px solid #FD6600;
 }
@@ -510,7 +510,7 @@ body {
 .mountain img {
   width: 285px;
   height: 300px;
-  margin: 40px 5px;
+  margin: 40px 10px;
   border-radius: 50px 10px 10px 10px;
   border: 2px solid #FD6600;
 }
