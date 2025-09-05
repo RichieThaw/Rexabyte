@@ -566,13 +566,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0px 40px;
- padding: 20px;
 }
 .current img {
   width: 500px;
   height: 400px;
   border-radius: 100px 10px 10px 10px;
-  margin: 20px;
+  margin: 20px 80px;
   border: 2px solid #FD6600;
 }
 
@@ -1171,7 +1170,7 @@ body {
  .places p {
   font-size: 1.3rem;
   width: 326px;
-  margin-left: -10px;
+  margin-left: -20px;
  }
 
  .beach p , .mountain p {
