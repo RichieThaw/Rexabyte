@@ -2,127 +2,135 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #222222;
   background-color: #000000;
-  line-height: 1.6;
 }
 
 #icon {
-  font-size: 30px;
+   font-size: 30px;
   transition: color 0.5s;
+  color: #ffffff;  
 }
 
 .nav-list-second button {
-border: none;
-background: none;
+  border: none;
+  background: none;
 }
 
 .nav-bar img {
-width: 100px;
-height: 100px;
-margin: 10px 40px;
-transition: transform 0.5s;
+  width: 100px;
+  height: 100px;
+  margin: 10px 40px;
 }
+
 .nav-bar img:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .nav-bar p {
-font-size: 3rem;
-position: absolute;
-margin-top: 30px;
-margin-left: 180px;
-font-weight: bolder;
-text-transform: uppercase;
-animation-name: gradient;
-animation-duration: 4s;
-animation-iteration-count: infinite;
+  font-size: 3rem;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 180px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  animation-name: gradient;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+
 @keyframes gradient {
-from { color: #002347;}
-to { color: #FD6600;}
+  from {
+    color: #002347;
+  }
+
+  to {
+    color: #FD6600;
+  }
 }
 
 .nav-bar {
-display: flex;
-justify-content: space-between;
-background-color: rgba(0, 0, 0,0.9);
-height: 100%;
-margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  margin-bottom: 10px;
 }
 
 .nav-list {
-position: relative;
-right: 30px;
+  position: relative;
+  right: 30px;
 }
 
 .nav-list li {
-font-size: 27px;
-display: inline-block;
-justify-content: space-between;
-margin: 20px 10px;
-padding: 20px;
-border-radius: 30px 10px 30px 10px;
-transition: background-color 0.5s ;
+  font-size: 27px;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px 10px;
+  padding: 20px;
+  border-radius: 30px 10px 30px 10px;
+  transition: background-color 0.5s;
 }
+
 .nav-list li:hover {
-background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.nav-list a , .nav-list-second a {
-text-decoration: none;
-color: inherit;
-color: white;
-} 
+.nav-list a,
+.nav-list-second a {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
 
-.nav-list a:visited , .nav-list-second a:visited {
-background-color: #002347;
+.nav-list a:visited,
+.nav-list-second a:visited {
+  background-color: #002347;
 }
 
 .nav-bar-second li {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-list-second li {
-font-size: 20px;
-border-radius: 30px;
-transition: background-color 0.5s ;
-padding: 20px;
+  font-size: 20px;
+  border-radius: 40%;
+  transition: background-color 0.5s;
+  padding: 20px;
 }
+
 .nav-list-second li:hover {
-background-color:  #FD6600;
+  background-color: #FD6600;
 }
 
 .nav-list-second a {
-font-weight: 900;
-font-size: 27px;
-transition: color 0.5s;
-color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 27px;
+  transition: color 0.5s;
+  color: rgb(255, 255, 255);
 }
 
 .nav-bar-second {
-position: sticky;
-top: 0;
-width: 100%;
-border-radius: 30px;
-background-color: rgba(255, 255, 255,0.5);
-backdrop-filter: blur(40px);
--webkit-backdrop-filter: blur(40px);
-/*background-image: url(https://www.hollandamerica.com/content/dam/hal/inventory-assets/destinations/ports/hmc/port-hmc-half-moon-cay-bahamas-beach-c037.jpg);
-background-size: cover;
-background-position: center;
-opacity: 0.9;*/
-z-index: 1;
-}
-.nav-bar-second ul {
-display: flex;
-justify-content: space-around;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  z-index: 5;
+  padding: 10px;
 }
 
+.nav-bar-second ul {
+  display: flex;
+  justify-content: space-around;
+}
 .first-content {
   background-color: #444444;
   margin: 50px 0;
@@ -140,7 +148,10 @@ justify-content: space-around;
 .first-content h1, .second-content h2, .six-content h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #76FF7A;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
 }
 
 .first-content p, .second-content p, .six-content p {
@@ -176,7 +187,10 @@ justify-content: space-around;
 .card h3 {
   font-size: 28px;
   font-weight: 600;
-  color: #76FF7A;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
   background-color: gray;
   padding: 20px;
   margin-top: -8px;
@@ -213,7 +227,10 @@ justify-content: space-around;
 .fifth-content h2 {
   font-size: 35px;
   font-weight: 600;
-  color: #76FF7A;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
   margin: 20px 0;
   text-transform: uppercase;
 }
