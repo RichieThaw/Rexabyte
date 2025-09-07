@@ -415,4 +415,155 @@ justify-content: space-around;
   text-transform: uppercase;
 }
 
+/* Laptop screens (1024px and below) */
+@media (max-width: 1024px) {
+  .nav-bar img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px;
+  }
+
+  .nav-bar p {
+    font-size: 2.2rem;
+    margin-left: 120px;
+  }
+
+  .nav-list li {
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+  }
+
+  .first-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main {
+    width: 90%;
+    padding: 50px 20px;
+  }
+
+  .sec-content, .third-content, .fourth-content {
+    flex-wrap: wrap;
+    margin: 0 20px;
+  }
+
+  .card {
+    width: 45%;
+    height: auto;
+  }
+
+  .famous {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .famous img {
+    margin: 20px auto;
+  }
+
+  .seventh-content {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .one {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .width-hover, .width-hover-sec {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .width-hover img, .width-hover-sec img {
+    width: 30%;
+    height: auto;
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer-column {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Tablet screens (768px and below) */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar p {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+
+  .nav-bar-second ul {
+    flex-wrap: wrap;
+  }
+
+  .nav-list-second li {
+    padding: 10px 15px;
+  }
+
+   .nav-list-second li a {
+    font-size: 0.9rem;
+  }
+  #icon {
+    font-size: 1.2rem;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .famous {
+    flex-direction: column;
+  }
+
+  .famous img {
+    width: 80%;
+    height: auto;
+  }
+
+  .width-hover img, .width-hover-sec img {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+}
+
 
