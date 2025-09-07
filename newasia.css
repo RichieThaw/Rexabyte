@@ -479,6 +479,109 @@ justify-content: space-around;
   text-transform: uppercase;
 }
 
+/* ===============================
+   Responsive for Laptop Screens
+   =============================== */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .nav-bar img {
+    width: 80px;
+    height: 80px;
+  }
 
+  .nav-bar p {
+    font-size: 2.5rem;
+    margin-left: 150px;
+  }
+
+  .section-one h1, .section-one h2 {
+    font-size: 2.2rem;
+    line-height: 60px;
+  }
+
+  .section-one img {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .sec-section, .third-section {
+    margin: 40px 50px;
+  }
+
+  .fifth-content {
+    margin: 50px 100px;
+  }
+}
+
+/* ===============================
+   Responsive for Tablets (768px)
+   =============================== */
+@media (max-width: 768px) {
+   .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar p {
+    position: static;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+
+  .nav-bar-second ul {
+    flex-wrap: wrap;
+  }
+
+  .nav-list-second li {
+    padding: 10px 15px;
+  }
+
+  .nav-list-second li a {
+    font-size: 0.9rem;
+  }
+  #icon {
+    font-size: 1.2rem;
+  }
+
+  .section-one {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-one img {
+    width: 80%;
+    padding: 20px 0;
+  }
+
+  .sec-section, .third-section, .fourth-content, .fifth-content, .seventh-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .sec-section span, .third-section span, .card, .five, .one {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 
