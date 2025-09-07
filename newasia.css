@@ -586,6 +586,15 @@ justify-content: space-around;
     margin-bottom: 20px;
   }
 
+  .five img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .card {
+    margin-left: 40px;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
