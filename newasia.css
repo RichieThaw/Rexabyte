@@ -196,6 +196,7 @@ justify-content: space-around;
 
 .sec-section {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   margin: 50px 0px;
 }
