@@ -469,6 +469,80 @@ h2:hover::before {
   color: #ffffff;
 }
 
+.fourth-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.fourth-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 44px;
+  margin-bottom: -90px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  z-index: 1;
+  transition: border 0.5s;
+}
+
+.card:hover .fourth-container img {
+  transform: scale(1.09);
+}
+
+.card:hover .fourth-container {
+  border: 3px solid #FD6600;
+}
+.fourth-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.card {
+  transition: transform 0.5s;
+  margin-left: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card:hover .color {
+  box-shadow: 3px 3px 20px gray;
+}
+
+.color {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.color h3 {
+  font-size: 28px;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  padding-top: 90px;
+  margin-bottom: 20px;
+}
+
+.color p {
+  width: 250px;
+  height: 200px;
+  line-height: 30px;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  transition: color 0.5s;
+}
+
+
+
 #stay-hover {
   transition: transform 0.5s;
   margin: 40px 20px;
