@@ -197,12 +197,12 @@ justify-content: space-around;
 .sec-section, .third-section {
   display: flex;
   justify-content: space-between;
-  margin: 50px 100px;
+  margin: 50px;
 }
 
 .sec-section span , .third-section span{
   width: 40%;
-  margin: 0 30px;
+  margin: 0 20px;
   padding: 30px;
   border-radius: 20px;
   transition: transform 0.5s;
