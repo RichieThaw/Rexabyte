@@ -194,10 +194,10 @@ justify-content: space-around;
   padding: 50px 100px 0 0;
 }
 
-.sec-section, .third-section {
+.sec-section {
   display: flex;
   justify-content: space-between;
-  margin: 50px 20px;
+  margin: 50px 10px;
 }
 
 .third-section {
