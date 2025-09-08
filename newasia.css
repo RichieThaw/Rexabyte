@@ -206,6 +206,7 @@ justify-content: space-around;
 }
 
 .sec-section span {
+  width: 270px;
   padding: 20px;
   margin-left: 10px;
   border-radius: 20px;
@@ -215,10 +216,14 @@ justify-content: space-around;
  .third-section span{
   width: 40%;
   margin: 0 40px;
-   line-height: 30px;
   padding: 30px;
   border-radius: 20px;
   transition: transform 0.5s;
+}
+
+.sec-section span h2, .third-section span h2{
+  margin-bottom: 20px;
+
 }
 
 .sec-section span {
