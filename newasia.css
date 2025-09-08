@@ -206,7 +206,7 @@ justify-content: space-around;
 }
 
 .sec-section span {
-  width: 270px;
+  width: 280px;
   padding: 20px;
   margin-left: 10px;
   border-radius: 20px;
@@ -223,7 +223,7 @@ justify-content: space-around;
 
 .sec-section span h2, .third-section span h2{
   margin-bottom: 20px;
-
+  font-weight: 800;
 }
 
 .sec-section span {
