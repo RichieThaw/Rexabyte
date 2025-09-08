@@ -196,10 +196,9 @@ justify-content: space-around;
 
 .sec-section {
   display: flex;
-  width: 90%;
-  align-items: center;
+  width: 80%;
   justify-content: space-between;
-  margin: 50px 0px;
+  margin: 50px 10px;
 }
 
 .third-section {
