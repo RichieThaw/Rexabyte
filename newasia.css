@@ -197,12 +197,26 @@ justify-content: space-around;
 .sec-section, .third-section {
   display: flex;
   justify-content: space-between;
-  margin: 50px;
+  margin: 50px 20px;
 }
 
-.sec-section span , .third-section span{
+.third-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+
+.sec-section span {
   width: 40%;
-  margin: 0 20px;
+  margin: 0 10px;
+  padding: 30px;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+ .third-section span{
+  width: 40%;
+  margin: 0 40px;
   padding: 30px;
   border-radius: 20px;
   transition: transform 0.5s;
