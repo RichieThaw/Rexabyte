@@ -215,6 +215,7 @@ justify-content: space-around;
  .third-section span{
   width: 40%;
   margin: 0 40px;
+   line-height: 30px;
   padding: 30px;
   border-radius: 20px;
   transition: transform 0.5s;
