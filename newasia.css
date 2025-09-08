@@ -196,8 +196,8 @@ justify-content: space-around;
 
 .sec-section {
   display: flex;
-  width: 90%;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 50px;
 }
 
 .third-section {
@@ -207,9 +207,7 @@ justify-content: space-around;
 }
 
 .sec-section span {
-  width: 40%;
   padding: 30px;
-  margin-left: 15px;
   border-radius: 20px;
   transition: transform 0.5s;
 }
