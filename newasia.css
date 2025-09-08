@@ -208,8 +208,9 @@ justify-content: space-around;
 
 .sec-section span {
   width: 300px;
+   display: flex;
+  justify-content: center;
   padding: 30px;
-    margin: 0 auto;
 
   border-radius: 20px;
   transition: transform 0.5s;
