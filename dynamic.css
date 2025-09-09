@@ -1,4 +1,4 @@
-* {
+သာ* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -511,7 +511,7 @@ h2:hover::before {
 .card {
   transition: transform 0.5s;
   margin-left: 10px;
-  width:50%;
+  width:100%;
 }
 
 .card:hover {
