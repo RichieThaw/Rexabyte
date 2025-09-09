@@ -1067,10 +1067,10 @@ body {
            margin-top: 300px;
            margin-right: 25px;
  }
-  .phrase h1 { font-size: 2.2rem; }
-  .phrase h2 { font-size: 2.8rem; }
-  .phrase h3 { font-size: 1.6rem; }
-  .phrase p  { font-size: 1.5rem;
+  .phrase h1 { font-size: 1.5rem; }
+  .phrase h2 { font-size: 1.7rem; }
+  .phrase h3 { font-size: 1.4rem; }
+  .phrase p  { font-size: 1rem;
              }
 
   .bundle-one {   
