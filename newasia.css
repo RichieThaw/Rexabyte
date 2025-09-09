@@ -528,6 +528,11 @@ body {
     line-height: 60px;
   }
 
+ .card {
+    flex-direction: column;
+       justify-content: center;
+
+ }
   .section-one img {
     width: 40%;
     padding: 20px;
