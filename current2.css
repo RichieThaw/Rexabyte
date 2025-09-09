@@ -179,13 +179,12 @@ body {
 
 .fourth-container {
   position: relative;
-  width: 350px;
+  width: 370px;
   height: 300px;
   overflow: hidden;
   border-radius: 20px 20px 0 0 ;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   z-index: 1;
-  transition: border 0.5s;
 }
 
 .card:hover .fourth-container img {
@@ -194,8 +193,8 @@ body {
 
 
 .fourth-container img {
-    width: 350px;
-  height: 250px;
+    width: 100%;
+  height: 100%;
     transition: transform 0.5s;
 }
 
@@ -379,14 +378,6 @@ body {
   text-transform: uppercase;
 }
 
-
-
-
-/* ============================= */
-/* RESPONSIVE STYLES             */
-/* ============================= */
-
-/* Tablets */
 @media (max-width: 1024px) {
   .nav-list li {
     font-size: 20px;
@@ -425,7 +416,6 @@ body {
   }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
  .nav-bar {
     flex-direction: column;
