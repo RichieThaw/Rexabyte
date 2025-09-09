@@ -9,6 +9,7 @@
 
 body {
   background-color: #000000;
+  line-height: 1.6;
 }
 
 .nav-list-second button {
@@ -129,7 +130,7 @@ body {
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
   padding: 10px 0;
-  z-index: 1;
+  z-index: 5;
 }
 .nav-bar-second ul {
   display: flex;
