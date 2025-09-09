@@ -1008,11 +1008,14 @@ h2:hover::before {
   #stay-hover img {
    margin-right: 15px;
   }
+  .card {
+    margin-bottom: 50px;
+  }
   .fourth-content {
     display: flex;
     flex-direction: column;  
-    margin-bottom: 70px;
   }
+  
   
   .places, .Food, .stays{
     display: flex;
@@ -1020,12 +1023,12 @@ h2:hover::before {
     flex-wrap: nowrap;    
     overflow-x: auto;  
     overflow-y: hidden;
-    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+    -webkit-overflow-scrolling: touch;
   }
   .places img {
     width: 300px;    
     height: 320px;
-    flex: 0 0 auto;          /* no shrinking */
+    flex: 0 0 auto;         
     margin: 0px 35px;
   }
 
@@ -1033,7 +1036,7 @@ h2:hover::before {
     width: 300px;
     height: 550px;
     font-size: 1rem;
-    flex: 0 0 auto;          /* no shrinking */
+    flex: 0 0 auto;         
     margin-top: -10px;
     padding: auto;
     margin-left: 35px;
@@ -1041,8 +1044,8 @@ h2:hover::before {
 
   .places h1 {
     font-size: 1.3rem;
-    width: 300px;            /* smaller size for phones */
-    flex: 0 0 auto;          /* no shrinking */
+    width: 300px;           
+    flex: 0 0 auto;         
     margin-top: -36px;
     margin-left: 35px;
     padding: auto;
