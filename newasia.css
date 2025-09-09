@@ -511,9 +511,7 @@ body {
   text-transform: uppercase;
 }
 
-/* ===============================
-   Responsive for Laptop Screens
-   =============================== */
+
 @media (min-width: 1024px) and (max-width: 1440px) {
   .nav-bar img {
     width: 80px;
@@ -544,9 +542,6 @@ body {
   }
 }
 
-/* ===============================
-   Responsive for Tablets (768px)
-   =============================== */
 @media (max-width: 768px) {
    .nav-bar {
     flex-direction: column;
@@ -610,7 +605,13 @@ body {
   .sec-section, .third-section, .fourth-content, .fifth-content, .seventh-content, .five {
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 40px;
+  }
+
+ .card {
+    flex-direction: column;
+       align-items: center;
+
   }
 
   .sec-section span, .third-section span, .card, .five, .one {
