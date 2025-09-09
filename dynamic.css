@@ -478,6 +478,7 @@ h2:hover::before {
   display: flex;
   justify-content: space-around;
   margin: 50px;
+  width: 100%;
 }
 
 .fourth-container {
@@ -1018,9 +1019,8 @@ h2:hover::before {
   }
   .fourth-content {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
   }
-  
   
   .places, .Food, .stays{
     display: flex;
@@ -1116,101 +1116,6 @@ h2:hover::before {
   }
   .three-things span p {
     font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .nav-bar img {
-    width: 80px;
-    height: 80px;
-    margin: 10px 20px;
-  }
-
-  .nav-bar p {
-    font-size: 2rem;
-  }
-
-  .nav-list li {
-    font-size: 16px;
-    padding: 8px;
-    margin: 8px 4px;
-  }
-
-  .nav-list-second li {
-    padding: 8px 12px;
-  }
-
-  .nav-list-second a {
-    font-size: 20px;
-  }
-
-  .welcome img {
-    width: 250px;
-    height: 250px;
-  }
-
-  .phrase h1 {
-    font-size: 1.5em;
-    line-height: 40px;
-  }
-
-  .phrase h2 {
-    font-size: 3em;
-  }
-
-  .phrase h3 {
-    font-size: 0.9em;
-    line-height: 25px;
-  }
-
-  h2 {
-    font-size: 2rem;
-    margin: 40px 0;
-  }
-
-  .welcome-text h1,
-  .welcome-text p {
-    font-size: 1.5rem;
-  }
-
-  .welcome-text p {
-    font-size: 1rem;
-  }
-
-  #tt3 {
-    font-size: 2.5rem;
-  }
-
-  .three-things span p {
-    font-size: 1rem;
-    line-height: 30px;
-  }
-
-  .Food img {
-    width: 250px;
-    height: 250px;
-  }
-
-  .media i {
-    font-size: 40px;
-    margin: 0 10px;
-  }
-
-  .footer-column h3 {
-    font-size: 1.5rem;
-  }
-
-  .footer-links li,
-  .footer-links a {
-    font-size: 1rem;
-  }
-
-  #foot {
-    font-size: 1.3rem;
-  }
-
-  .footer-bottom p {
-    font-size: 1.2rem;
   }
 }
 
