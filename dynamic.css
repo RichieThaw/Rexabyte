@@ -1008,7 +1008,7 @@ h2:hover::before {
   #stay-hover img {
    margin-right: 15px;
   }
-  .card {
+  .fourth-content {
     display: flex;
     flex-direction: column;  
     margin-bottom: 30px;
