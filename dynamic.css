@@ -364,7 +364,7 @@ h2:hover::before {
   background-color: rgb(142, 142, 142);
   color: #000000;
   border-radius: 0 0 20px 20px;
-  transition: color 0.5s;
+  transition: color 30px0px.5s;
   transition: background-color 0.5s;
 }
 
@@ -1011,7 +1011,7 @@ h2:hover::before {
   .fourth-content {
     display: flex;
     flex-direction: column;  
-    margin-bottom: 30px;
+    margin-bottom: 70px;
   }
   
   .places, .Food, .stays{
