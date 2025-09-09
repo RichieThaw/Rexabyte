@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singapore</title>
+  <link rel="stylesheet" href="newasia.css">
+  <script src="https://kit.fontawesome.com/12d2bb74d1.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="home"></div>
+
+  <nav class="nav-bar">
+    <a href="index.html"><img class="logo" src="photos.css/photo_2025-06-17_12.12.57_PM-removebg-preview.png"></a>
+    <p>Rexa_Byte</p>
+    <ul class="nav-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="login.html">Sign in</a></li>
+    </ul>
+
+  </nav>
+
+  <div class="nav-bar-second">
+
+    <ul class="nav-list-second">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#places">Places</a></li>
+      <li><a href="#cuisine">Cuisine</a></li>
+      <li><a href="#culture">Culture</a></li>
+      <li><a href="#hotel">Hotel</a></li>
+      <li><a><button onclick="change()"><i id="icon" class="fa-solid fa-moon"></i></button></a></li>
+    </ul>
+
+  </div>
+
+  <div id="home" class="section-one">
+    <span>
+       <h1>Discover the </h1>
+       <h1>Hidden Wonders of</h1>
+       <h2>singapore's</h2>
+       <p>Explore the rich culture, exquisite cuisine, and breathtaking landmarks that make Singapore a traveler's paradise.</p>
+       <h3>Start Exploring</h3>
+    </span>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCK-2P1ev1zPC0y1F9MeZ1QMeoWEtUNj459g&s" alt="">
+  </div>
+ 
+  <h1 id="places" class="head">top palces to visit</h1>
+
+  <div class="sec-section">
+
+    <span>
+      <div class="sec-container">
+      <img src="https://www.insidetravel.com/uploads/photo-e/Singapore-Blogs/Famous-Places-To-Visit-In-Singapore/Merlion-Park-ori.jpg" alt="">
+    </div>
+      <h2>Merlion Park</h2>
+      <p>The Merlion Park is one of the country’s sought-after tourist sites. As the name indicates, the park situates two statues of the Merlion, a mythical creature with a lion's head and the body and tail of a fish. Merlion represents Singapore's origin as a fishing village combined with its traditional Malay name Singapura which means "lion city", hence it is widely used as Singapore’s national mascot. Among two Merlion statues, the original one, which overlooks Marina Bay and also attracts more visitors, measures 8.6 meters tall and spouts water from its mouth. </p>
+      <p>location &#128205; located in the Downtown Core district near Central Business District of Singapore.</p>
+    </span>
+
+    <span>
+      <div class="sec-container">
+      <img src="https://www.insidetravel.com/uploads/photo-e/Singapore-Blogs/Famous-Places-To-Visit-In-Singapore/Gardens-by-the-Bay-ori.jpg" alt="">
+    </div>
+      <h2>Garden by the Bay</h2>
+      <p>Garden by the Bay is a huge natural park and botanic garden in Singapore. Spanning an extensive area of 101 hectares, the garden is the home to approximately 400,000 plants, which is divided into three parts including Bay Central Garden, Bay East Garden, and Bay South Garden. Garden by the Bay is famous for its numerous eye-catching structures such as Supertree Grove, Flower Dome, Cloud Forest Dome, SkyWay, etc. Visiting here, people can admire futuristic green space, relish the vibrant plant life, and escape the city bustle for a while.</p>
+      <p>location &#128205;  located at 18 Marina Gardens Drive, Singapore 018953, adjacent to the Marina Reservoir and near the famous Marina Bay Sands hotel.</p>
+    </span>
+ 
+    <span>
+      <div class="sec-container">
+      <img src="https://www.insidetravel.com/uploads/photo-e/Singapore-Blogs/Famous-Places-To-Visit-In-Singapore/Universal-Studio-Singapore-ori.jpg" alt="">
+    </div>
+      <h2>Sentosa Island</h2>
+      <p>Sentosa is a beautiful island where offer endless fun from dawn till dusk for people of all age. Being the place of the sun, the sand, and the sea, Sentosa is not only famous for beach activities but also a paradise of amusement. The island houses Resorts World Sentosa, an integrated resort comprising diverse types of recreation such as casinos, world-famous theme park Universal Studios, water park, aquarium, playgrounds, art performances, etc besides luxury hotels & dining. Being a friendly tourist attraction to everyone, Sentosa island surely delivers amazing time for a great day out with your mates.</p>
+      <p>location &#128205; Located not far away from the city centre to the South</p>
+    </span>
+
+    <span>
+      <div class="sec-container">
+      <img src="https://www.insidetravel.com/uploads/photo-e/Singapore-Blogs/Famous-Places-To-Visit-In-Singapore/Chinatown%20Singapore-ori.jpg" alt="">
+    </div>
+      <h2>China Town</h2>
+      <p> Singapore Chinatown also offers a great blend of cultural diversity and it is the only Chinatown all over the world to have three different worship spots from three cultures: a Buddhist temple, a mosque and a Hindu temple along a single street. Tourists can easily gain insight into Singapore's richness of multi-ethnic and culture by strolling along the vibrant streets, visiting the prominent traditional sights, sampling different cuisines as well as encountering the trendy vibe from fancy cafeterias, shops, and diverse merriment here.</p>
+      <p>location  &#128205; located in the central part of the city within the Outram district, west of the Singapore River</p>
+    </span>
+
+  </div>
+
+  <h1 id="cuisine" class="head">Singapore cuisine</h1>
+
+  <div class="third-section">
+
+    <span>
+      <div class="third-container">
+      <img src="https://www.insanelybest.com/wp-content/uploads/2025/06/Singapore-food-Laksa.jpg.webp" alt="">
+    </div>
+      <h2>Laksa</h2>
+      <p>Laksa is another popular noodle dish that’s a staple in Singapore food culture.Think of Laksa as the love child of spicy curry and noodle soup, born from Peranakan heritage.</p>
+      
+    </span>
+
+    <span>
+      <div class="third-container">
+      <img src="https://www.insanelybest.com/wp-content/uploads/2025/06/Singapore-food-Bak-Kut-Teh.jpg.webp" alt="">
+    </div>
+      <h2>Bak Kut Teh</h2>
+      <p>Bak Kut Teh means meat bone tea, though there is no tea in the soup. This peppery pork rib soup is slow simmered with garlic, white pepper and herbs until the meat is fall off the bone tender. Add rice, fried dough sticks and preserved vegetables for a hearty meal.</p>
+      
+    </span>
+
+    <span>
+      <div class="third-container">
+      <img src="https://www.insanelybest.com/wp-content/uploads/2025/06/Singapore-Food-Guide-Chilli-Crab.jpg.webp" alt="">
+    </div>
+      <h2>Chilli Crab</h2>
+      <p>Spicy, sweet, messy and glorious. Chilli Crab is the life of the Singaporean food party. Imagine fresh mud crab stir fried in a rich, tangy tomato chili gravy that is more savory than spicy. Served with soft steamed or crispy fried mantou buns to soak up the sauce, it is an absolute feast and a hands on experience.</p>
+    
+  </span>
+
+  </div>
+
+  <h1 id="culture" class="head">Singapore culture</h1>
+
+  <div class="fourth-content">
+
+    <div class="card">
+      <div class="fourth-container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQqOLkbIs_FXM_6PDMVl9KVSURSfAko_5OrA&s" alt="Chinese New Year">
+    </div>
+      <h3>Chinese New Year</h3>
+        <p>Chinese New Year is one of Singapore's most significant cultural holidays, marked by vibrant, 15-day festivities.</p>
+    </div>
+
+    <div class="card">
+      <div class="fourth-container">
+      <img src="https://media.timeout.com/images/106062154/image.jpg" alt="Deepavali">
+    </div>
+      <h3>Deepavali</h3>
+        <p>A vibrant national celebration that goes beyond the Hindu community, with festivities centered in the Little India district </p>
+    </div>
+
+    <div class="card">
+      <div class="fourth-container">
+      <img src="https://www.saveur.com/uploads/2022/08/08/00-HERO-Singapores-Heritage-Cuisine-SAVEUR-scaled.jpg?auto=webp" alt="cusine">
+    </div>
+      <h3>Singapore Cusine</h3>
+        <p>Singaporean cuisine is a rich blend of culinary traditions influenced by the country's diverse immigrant population.</p>
+    </div>
+
+    <div class="card">
+      <div class="fourth-container">
+      <img src="https://silverkris.singaporeair.com/wp-content/uploads/2023/09/Fajrina-Razak-batik-stamp-collection_Singapore-Traditional-Craft_1280w.jpg" alt="Art & craft">
+    </div>
+      <h3>Art & craft</h3>
+        <p>In Singapore, a diverse and vibrant art and craft scene flourishes, blending traditional techniques with modern influences.  </p>
+    </div>
+
+  </div>
+
+  <h1 id="hotel" class="head">hotels to stay</h1>
+
+  <div class="fifth-content">
+
+    <div class="five">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/28/08/dc/facade.jpg?w=800&h=500&s=1" alt="">
+    <span>
+      <h2>Amoy Hotel by Far East Hospitality</h2>
+      <p>&#9734  &#9734 &#9734 &#9734 &#9734</p>
+      <p>AMOY is the first hotel in Singapore to incorporate a museum that traces the footsteps of early immigrants.</p>
+      <h3>From $365 per night</h3>
+    </span>
+    </div>
+
+    <div class="five">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/40/35/dc/infinity-pool.jpg?w=800&h=500&s=1" alt="">
+    <span>
+      <h2>Momentus Hotel Alexandra</h2>
+      <p>&#9734 &#9734 &#9734 &#9734</p>
+      <p>The Momentus Hotel Alexandra is a 4-star hotel in Singapore known for its rooftop infinity pool, multiple dining options, and contemporary rooms</p>
+      <h3>From $308 per night</h3>
+    </span>
+    </div>
+
+    <div class="five">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/0e/cd/16/exterior-sky-gardens.jpg?w=800&h=500&s=1" alt="">
+    <span>
+      <h2>PARKROYAL COLLECTION Pickering</h2>
+      <p>&#9734 &#9734 &#9734 &#9734 &#9734</p>
+      <p>a luxury hotel known for its stunning "hotel-in-a-garden" concept and eco-friendly design. Designed by the world-renowned firm WOHA, the hotel's architecture features lush sky gardens, hanging foliage, and a facade that blends seamlessly with nature. </p>
+      <h3>From $1961 per night</h3>
+    </span>
+    </div>
+
+    <div class="five">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/53/52/ba/sky-bridge.jpg?w=800&h=500&s=1" alt="">
+    <span>
+      <h2>PARKROYAL COLLECTION Marina Bay</h2>
+      <p>&#9734 &#9734 &#9734 &#9734</p>
+      <p>The PARKROYAL COLLECTION Marina Bay is a 4.4-star hotel in Singapore's Marina Bay district, known for its "garden-in-a-hotel" concept. </p>
+      <h3>From $780 per night</h3>
+    </span>
+    </div>
+
+  </div>
+
+  <h1 class="head">Best Things About Singapore</h1>
+
+  <div class="seventh-content">
+
+    <div class="one">
+     <span class="icon">
+      <i class="fas fa-calendar-alt"></i>
+     </span>
+     <span class="content">
+      <h3>Best Time to Visit</h3>
+      <p>from February to April for pleasant weather and outdoor activities, but July to August is ideal if you want to experience major food festivals and shopping events like the Great Singapore Sale..</p>
+     </span>
+    </div>
+
+    <div class="one">
+      <span class="icon">
+       <i class="fas fa-umbrella-beach"></i>
+      </span>
+      <span class="content">
+       <h3>Must Try Experience</h3>
+       <p>For unique and unforgettable experiences in Singapore, you can explore the city's diverse culinary scene, immerse yourself in nature, and discover its rich cultural heritage.</p>
+      </span>
+     </div>
+
+    <div class="one">
+      <span class="icon">
+       <i class="fas fa-utensils"></i>
+      </span>
+      <span class="content">
+       <h3>Delicious cusine</h3>
+       <p>Singapore offers a diverse range of delicious cuisines influenced by its multicultural population, with popular dishes including the national dish Hainanese Chicken Rice, the spicy seafood dish Chilli Crab, the rich and savory Laksa, and the fragrant, coconut-infused rice Nasi Lemak.</p>
+      </span>
+     </div>
+
+     <div class="one">
+      <span class="icon">
+       <i class="fas fa-map-marker-alt"></i>
+      </span>
+      <span class="content">
+       <h3>Iconic Landmarks</h3>
+       <p>Singapore boasts a variety of iconic landmarks that showcase its blend of futuristic architecture, historical heritage, and lush green spaces.</p>
+      </span>
+     </div>
+
+  </div>
+
+  <footer>
+    <div id="about" class="footer-content">
+        
+       <div class="footer-column">
+           <h3>Rexa_Byte</h3>
+           <ul class="footer-links">
+               <li><a href="#">Your Travel Guide &#10084</a></li>
+               <li><a href="#">Travel With Us !</a></li>
+        </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Explore</h3>
+            <ul class="footer-links">
+                <li><a href="#">Mountain Pagodas</a></li>
+                <li><a href="#">Traditional Cuisine</a></li>
+                <li><a href="#">Luxury Retreats</a></li>
+                <li><a href="#">Hiking Trails</a></li>
+                <li><a href="#">Cultural Experiences</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Destinations</h3>
+            <ul class="footer-links">
+                <li><a href="#">Myanmar</a></li>
+                <li><a href="#">Southeast Asia</a></li>
+                <li><a href="#">Mountains</a></li>
+                <li><a href="#">Beaches</a></li>
+                <li><a href="#">Places You Don't Know</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+                <li><i id="foot" class="fas fa-map-marker-alt"></i>Myanmar Rexa_Byte</li>
+                <li><i id="foot" class="fas fa-phone"></i>09-123456789</li>
+                <li><i id="foot" class="fas fa-envelope"></i>richiethaw@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Rexa_Byte. Socrces from internet.</p>
+    </div>
+</footer>
+
+
+<script>
+    let backGo = true;
+  
+    function change() {
+      const navBar = document.querySelector( '.nav-bar-second');
+      const fontChange = document.querySelectorAll( '.nav-list-second a');
+      const icon = document.querySelectorAll ("#icon");
+       if (backGo) {
+        document.body.style.backgroundColor = "black";
+        navBar.style.backgroundColor = "rgba(255, 255, 255,0.5)";
+        fontChange.forEach(link => link.style.color = "white");
+        icon.forEach(link => link.style.color = "white");
+       } else {
+        document.body.style.backgroundColor = "rgba(245, 245, 245)";
+        navBar.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+        fontChange.forEach(link => link.style.color = "black");
+        icon.forEach(link => link.style.color = "black");
+       }
+       backGo = !backGo ;
+    }
+  </script>
+  
+</body>
+</html>
+
