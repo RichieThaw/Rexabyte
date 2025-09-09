@@ -1,5 +1,5 @@
-  * {
-  margin: 0;   
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -11,53 +11,6 @@ body {
   background-color: #000000;
 }
 
-#icon {
-  font-size: 30px;
-  transition: color 0.5s;
-  color: #ffffff;
-}
-
-.bubble {
-  position: absolute;
-  width: 100px;                       
-  height: 150px;
-  aspect-ratio: 2/3;
-  mask: 
-    conic-gradient(from -30deg at bottom,#0000,#000 1deg 59deg,#0000 60deg) bottom/100% 50% no-repeat, 
-    radial-gradient(circle at 50% calc(100% / 3),#0000 21.5%,#000 22% 44%,#0000 44.5%);
-  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
-  z-index: -1;
-}
-
-#a1 {
-  margin-left: 20px;
-  margin-top: -420px;
-}
-
-#a2 {
-  margin-top: -190px;
-  margin-left: 360px;
-}
-
-#a3 {
-  margin-top: -410px;
-  margin-left: 810px;
-}
-
-#a4 {
-  margin-top: -110px;
-  margin-left: 1100px;
-}
-
-
-#a6 {
-  margin-top: -500px;
-  margin-left: 1170px;
-}
-.bubble:hover {
-  transform: scale(1.1);
-}
-
 .nav-list-second button {
   border: none;
   background: none;
@@ -66,7 +19,7 @@ body {
 .nav-bar img {
   width: 100px;
   height: 100px;
-  margin: 10px 40px;
+  margin: 10px 0px 10px 80px;
   transition: transform 0.5s;
 }
 .nav-bar img:hover {
@@ -74,10 +27,10 @@ body {
 }
 
 .nav-bar p {
-  font-size: 3rem;
   position: absolute;
-  margin-top: 30px;
-  margin-left: 180px;
+  font-size: 3rem;
+  margin-top: 35px;
+  margin-left: 200px;
   font-weight: bolder;
   text-transform: uppercase;
   animation-name: gradient;
@@ -108,11 +61,13 @@ body {
   justify-content: space-between;
   margin: 20px 10px;
   padding: 20px;
-  border-radius: 30px 10px 30px 10px;
-  transition: background-color 0.5s ;
+  border-bottom: 3px solid #D0F0C0;
+  transition: all 0.5s ;
 }
 .nav-list li:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px 8px 30px 8px;
+
 }
 
 .nav-list a , .nav-list-second a {
@@ -130,13 +85,23 @@ body {
 }
 
 .nav-list-second li {
-  font-size: 20px;
+  font-size: 24px;
   border-radius: 40%;
   transition: background-color 0.5s ;
-  padding: 20px;
+  padding: 14px;
+  transition: all 0.5s;
 }
 .nav-list-second li:hover {
-  background-color:  #FD6600;
+    transform: translateY(-7px);
+
+}
+
+#icon {
+  font-size: 30px;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  transition: all 0.5s;
 }
 
 .nav-list-second a {
@@ -144,6 +109,15 @@ body {
   font-size: 27px;
   transition: color 0.5s;
   color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+
+.nav-list-second li:hover a, .nav-list-second li:hover #icon {
+  background-image: linear-gradient(45deg, #43ced6, #d2e43a 50%, #93ec10 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 10px 8px #D0F0C0, 0px 0px 2px #D0F0C0, 0 0 0px #D0F0C0;
 }
 
 .nav-bar-second {
@@ -154,11 +128,7 @@ body {
   background-color: rgba(255, 255, 255,0.5);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
- padding: 10px;
-  /*background-image: url(https://www.hollandamerica.com/content/dam/hal/inventory-assets/destinations/ports/hmc/port-hmc-half-moon-cay-bahamas-beach-c037.jpg);
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;*/
+  padding: 10px 0;
   z-index: 1;
 }
 .nav-bar-second ul {
