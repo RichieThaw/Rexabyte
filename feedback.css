@@ -10,6 +10,10 @@
 body {
   background-color: gray;
     line-height: 1.6;
+      background-image: url(https://img.freepik.com/free-vector/gradient-glassmorphism-background_23-2149447863.jpg?ga=GA1.1.1919555672.1747735403&semt=ais_hybrid&w=740);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .nav-list-second button {
@@ -139,10 +143,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://img.freepik.com/free-vector/gradient-glassmorphism-background_23-2149447863.jpg?ga=GA1.1.1919555672.1747735403&semt=ais_hybrid&w=740);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-color: transparent;
+
     justify-content: center;
     text-align: center;
     width: 90%;
