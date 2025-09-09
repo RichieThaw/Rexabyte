@@ -19,7 +19,7 @@ body {
 .nav-bar img {
   width: 100px;
   height: 100px;
-  margin: 10px 0px 10px 80px;
+  margin: 10px 40px;
   transition: transform 0.5s;
 }
 .nav-bar img:hover {
@@ -27,16 +27,17 @@ body {
 }
 
 .nav-bar p {
-  position: absolute;
   font-size: 3rem;
-  margin-top: 35px;
-  margin-left: 200px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 180px;
   font-weight: bolder;
   text-transform: uppercase;
   animation-name: gradient;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+
 @keyframes gradient {
   from { color: #fdfdfd;}
   to { color: #FD6600;}
@@ -917,10 +918,6 @@ body {
   font-style: normal;
 }
 
-
-/* ---------------- Responsive Design ---------------- */
-
-/* Tablet Screens */
 @media screen and (max-width: 1024px) {
   .nav-bar {
     flex-direction: row;
@@ -1021,7 +1018,6 @@ body {
   }
 }
 
-/* Mobile Screens */
 @media screen and (max-width: 768px) {
   
 .nav-bar {
@@ -1097,7 +1093,7 @@ body {
     flex-wrap: nowrap;    
     overflow-x: auto;  
     overflow-y: hidden;
-    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+    -webkit-overflow-scrolling: touch;
   }
  .places , .current {
   display: flex;
@@ -1106,7 +1102,7 @@ body {
     flex-wrap: nowrap;    
     overflow-x: auto;  
     overflow-y: hidden;
-    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+    -webkit-overflow-scrolling: touch;
   }
   
  .current {
@@ -1210,26 +1206,3 @@ font-size: 1rem;
   }
 }
 
-/* Small Mobile Screens */
-@media screen and (max-width: 480px) {
-  .nav-bar img { width: 50px; }
-
-  .nav-bar p { font-size: 1.1rem; }
-
-  .nav-list a, .nav-list-second a {
-    font-size: 0.8rem;
-  }
-
-  .nav-list-second li a {
-    font-size: 0.85rem;
-    padding: 8px 0;
-  }
-
-  .phrase h1 { font-size: 1.3rem; }
-  .phrase h2 { font-size: 1.8rem; }
-  .phrase h3 { font-size: 0.8rem; }
-  .phrase p  { font-size: 0.75rem; }
-
-  .footer-column h3 { font-size: 1rem; }
-  .footer-links a   { font-size: 0.8rem; }
-}
