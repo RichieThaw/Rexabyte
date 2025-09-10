@@ -737,7 +737,6 @@ h2:hover::before {
   text-transform: uppercase;
 }
 
-/* Responsive Styles */
 @media (max-width: 1200px) {
   .welcome img {
     width: 400px;
@@ -1016,7 +1015,7 @@ h2:hover::before {
   }
   
   .card {
-    width: 350px;
+    width: 250px;
     margin-bottom: 50px;
   }
   .fourth-content {
