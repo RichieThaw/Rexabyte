@@ -484,10 +484,14 @@ body {
     align-items: center;
   }
 
-  .card p,.fourth-container, .fourth-container img {
+  .card p, .fourth-container img {
     width: 90%;
   }
-
+  
+.fourth-container {
+  width:100%;
+}
+  
   .footer-content {
     flex-direction: column;
     text-align: center;
