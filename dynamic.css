@@ -476,8 +476,7 @@ h2:hover::before {
 
 .fourth-content {
   display: flex;
-  justify-content: space-between;
-  margin: 50px 10px;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -510,7 +509,7 @@ h2:hover::before {
 
 .card {
   transition: transform 0.5s;
-  width: 270px;
+  width: 290px;
 }
 
 .card:hover {
@@ -523,7 +522,7 @@ h2:hover::before {
 
 .color {
   background-color: gray;
-  padding: 90px 20px 20px 20px;
+  padding: 90px 20px 10px 20px;
   border-radius: 20px;
 }
 
