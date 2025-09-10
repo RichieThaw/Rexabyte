@@ -477,7 +477,7 @@ h2:hover::before {
 .fourth-content {
   display: flex;
   justify-content: space-between;
-  margin: 50px;
+  margin: 50px 10px;
   width: 100%;
 }
 
