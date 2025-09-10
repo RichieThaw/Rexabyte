@@ -523,10 +523,8 @@ h2:hover::before {
 .color {
   background-color: gray;
   padding-top: 90px;
-  padding-let: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
   border-radius: 20px;
+  height: 350px;
 }
 
 .color h3 {
@@ -536,6 +534,9 @@ h2:hover::before {
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   font-weight: 600;
+   padding-let: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
@@ -544,6 +545,9 @@ h2:hover::before {
   font-size: 19px;
   color: rgb(0, 0, 0);
   transition: color 0.5s;
+   padding-let: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
