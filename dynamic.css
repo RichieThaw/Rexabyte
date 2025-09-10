@@ -486,7 +486,7 @@ h2:hover::before {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  margin-left: 44px;
+  margin-left: 47px;
   margin-bottom: -90px;
   border-radius: 50%;
   border: 3px solid white;
@@ -954,9 +954,7 @@ h2:hover::before {
   .nav-bar a img {
     width: 80px;
     height: 80px;
-      display: flex;
-    justify-content: center;
-        align-items: center;
+    margin-right: 25px;
   }
 
   .nav-bar p {
