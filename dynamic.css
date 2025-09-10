@@ -478,10 +478,8 @@ h2:hover::before {
 .fourth-content {
   display: flex;
   justify-content: space-around;
-  margin: 50px 20px;
-  width:  80%;
-  align-items: center;
-  
+  margin: 50px 0;
+  width:  100%;  
 }
 
 .fourth-container {
