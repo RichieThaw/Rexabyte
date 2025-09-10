@@ -522,7 +522,7 @@ h2:hover::before {
 
 .color {
   background-color: gray;
-  padding: 90px 0px 0px 0px;
+  padding: 90px 10px 10px 10px;
   border-radius: 20px;
     height: auto;
 }
@@ -538,7 +538,6 @@ h2:hover::before {
 }
 
 .color p {
-  width: 250px;
   line-height: 30px;
   font-size: 19px;
   color: rgb(0, 0, 0);
