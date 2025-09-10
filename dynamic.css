@@ -488,7 +488,7 @@ h2:hover::before {
   margin-left: 50px;
   margin-bottom: -90px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid white;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   z-index: 1;
   transition: border 0.5s;
@@ -499,7 +499,7 @@ h2:hover::before {
 }
 
 .card:hover .fourth-container {
-  border: 3px solid #FD6600;
+  border: 5px solid #FD6600;
 }
 .fourth-container img {
   width: 100%;
