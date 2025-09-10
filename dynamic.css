@@ -483,8 +483,8 @@ h2:hover::before {
 
 .fourth-container {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   overflow: hidden;
   margin-left: 47px;
   margin-bottom: -90px;
@@ -511,7 +511,8 @@ h2:hover::before {
 .card {
   transition: transform 0.5s;
   margin-left: 10px;
-  width: 260px;
+  width: 220px;
+
 }
 
 .card:hover {
@@ -544,6 +545,7 @@ h2:hover::before {
   height: 200px;
   line-height: 30px;
   font-size: 19px;
+    padding: 10px;
   color: rgb(0, 0, 0);
   transition: color 0.5s;
 }
