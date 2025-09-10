@@ -951,6 +951,16 @@ h2:hover::before {
     align-items: center;
   }
 
+  .nav-bar a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar a img {
+    width: 80px;
+    height: 80px;
+  }
+
   .nav-bar p {
     position: static;
     margin: 10px 0;
