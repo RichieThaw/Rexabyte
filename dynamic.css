@@ -485,7 +485,7 @@ h2:hover::before {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  margin-left: 47px;
+  margin-left: 50px;
   margin-bottom: -90px;
   border-radius: 50%;
   border: 3px solid white;
@@ -509,7 +509,7 @@ h2:hover::before {
 
 .card {
   transition: transform 0.5s;
-  width: 310px;
+  width: 40%;
 }
 
 .card:hover {
@@ -543,6 +543,7 @@ h2:hover::before {
   font-size: 19px;
   color: rgb(0, 0, 0);
   transition: color 0.5s;
+    margin-bottom: 10px;
 }
 
 #stay-hover {
