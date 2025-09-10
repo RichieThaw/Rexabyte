@@ -510,9 +510,7 @@ h2:hover::before {
 
 .card {
   transition: transform 0.5s;
-  margin-left: 10px;
-  width: 220px;
-
+  width: 250px;
 }
 
 .card:hover {
