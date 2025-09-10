@@ -1019,7 +1019,7 @@ h2:hover::before {
     margin-bottom: 50px;
   }
   .fourth-content {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column; 
   }
