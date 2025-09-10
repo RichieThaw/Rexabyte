@@ -479,6 +479,7 @@ h2:hover::before {
   display: flex;
   justify-content: space-around;
   margin: 50px 0;
+  width: 90%;
 }
 
 .fourth-container {
