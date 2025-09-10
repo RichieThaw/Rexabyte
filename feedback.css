@@ -16,7 +16,7 @@
           justify-content: space-between;
           align-items: center;
           background-color: rgba(0, 0, 0, 0.9);
-          padding: 20px 5%;
+          padding: 20px;
           flex-wrap: wrap;
         }
 
@@ -31,7 +31,10 @@
         }
 
         .nav-bar p {
-          font-size: 2rem;
+            position: absolute;
+  font-size: 2rem;
+  margin-top: 35px;
+  margin-left: 200px;
           font-weight: bold;
           text-transform: uppercase;
           animation-name: gradient;
