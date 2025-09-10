@@ -510,7 +510,7 @@ h2:hover::before {
 .card {
   transition: transform 0.5s;
   width: 20%;
-  gap: 10;
+  gap: 5;
 }
 
 .card:hover {
