@@ -486,7 +486,7 @@ h2:hover::before {
   width: 160px;
   height: 160px;
   overflow: hidden;
-  margin-left: 47px;
+  margin-left: 43px;
   margin-bottom: -90px;
   border-radius: 50%;
   border: 3px solid white;
@@ -525,7 +525,7 @@ h2:hover::before {
 
 .color {
   background-color: gray;
-  padding: 20px;
+  padding: 90px 10px 10px 10px;
   border-radius: 20px;
 }
 
@@ -536,7 +536,6 @@ h2:hover::before {
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-  padding-top: 90px;
   margin-bottom: 20px;
 }
 
@@ -545,12 +544,9 @@ h2:hover::before {
   height: 200px;
   line-height: 30px;
   font-size: 19px;
-    padding: 10px;
   color: rgb(0, 0, 0);
   transition: color 0.5s;
 }
-
-
 
 #stay-hover {
   transition: transform 0.5s;
