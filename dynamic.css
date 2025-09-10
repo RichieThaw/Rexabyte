@@ -10,7 +10,6 @@
 body {
   background-color: #000000;
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 .nav-list-second button {
@@ -275,8 +274,8 @@ body {
   transition: transform 0.5s;
 }
 
-.welcome-text:hover {
-}
+/*.welcome-text:hover {
+}*/
 
 .first img {
   width: 450px;
@@ -477,7 +476,7 @@ h2:hover::before {
 .fourth-content {
   display: flex;
   justify-content: space-around;
-  margin: 50px 10px;
+  margin: 50px 0;
   width:  100%;  
 }
 
@@ -741,398 +740,393 @@ h2:hover::before {
   text-transform: uppercase;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+  .welcome img {
+    width: 400px;
+    height: 400px;
+    margin-left: 600px;
+  }
+
+  .phrase h1 {
+    font-size: 3em;
+    line-height: 100px;
+  }
+
+  .phrase h2 {
+    font-size: 8em;
+  }
+
+  .phrase h3 {
+    font-size: 1.5em;
+    line-height: 60px;
+  }
+
+  .head-one {
+    margin: 80px 50px;
+  }
+
+  .welcome-text,
+  .first img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-bar p {
+    font-size: 2.5rem;
+    margin-left: 150px;
+  }
+
+  .nav-list li {
+    font-size: 22px;
+    padding: 15px;
+    margin: 15px 8px;
+  }
+
+  .welcome img {
+    width: 350px;
+    height: 350px;
+    margin-left: 450px;
+  }
+
+  .phrase {
+    left: 30px;
+    top: 200px;
+  }
+
+  .phrase h1 {
+    font-size: 2.5em;
+    line-height: 80px;
+  }
+
+  .phrase h2 {
+    font-size: 6em;
+    top: 30px;
+  }
+
+  .phrase h3 {
+    font-size: 1.2em;
+    line-height: 50px;
+  }
+
+  .three-things {
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0;
+  }
+
+  .three-things span {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .head-one {
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 30px;
+  }
+
+  .welcome-text {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .first img {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+  }
+
+  .places {
+    margin: 70px 30px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hover {
+    margin-bottom: 50px;
+    width: 90%;
+  }
+
+  .places img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .places h1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .places p {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .Food {
+    margin: 30px;
+  }
+
+  .one,
+  .two {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .Food img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .Food p {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .one h1,
+  .two h1 {
+    position: relative;
+    margin: -100px 0 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .stays {
+    margin: 70px 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #stay-hover {
+    width: 90%;
+    margin-bottom: 40px;
+    height: auto;
+  }
+
+  .stays img {
+    width: 90%;
+    height: auto;
+  }
+
+  .stays p {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .media {
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 20px;
+  }
+
+  .media h1 {
+    margin-bottom: 30px;
+  }
+
+  .media i {
+    margin: 0 15px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
     align-items: center;
-    padding: 10px 0;
   }
-  
-  .nav-bar img {
-    width: 70px;
-    height: 70px;
-    margin: 10px 0;
+
+  .nav-bar a img {
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
   }
-  
+
   .nav-bar p {
     position: static;
     margin: 10px 0;
-    font-size: 1.8rem;
     text-align: center;
+    font-size: 1.6rem;
   }
-  
+
   .nav-list {
     position: static;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
   }
-  
+
   .nav-list li {
-    font-size: 16px;
-    padding: 8px 12px;
-    margin: 5px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 5px;
   }
-  
+
   .nav-bar-second ul {
     flex-wrap: wrap;
   }
-  
+
   .nav-list-second li {
-    padding: 8px 12px;
-    margin: 5px;
+    padding: 10px 15px;
   }
-  
-  .nav-list-second a {
-    font-size: 16px;
+
+  .nav-list-second li a {
+    font-size: 0.9rem;
   }
-  
   #icon {
-    font-size: 20px;
-  }
-  
-  .welcome {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .welcome img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 0 auto;
-  }
-  
-  .phrase {
-    position: static;
-    text-align: center;
-    margin-top: 20px;
-    padding: 0 15px;
-  }
-  
-  .phrase h1 {
-    font-size: 2rem;
-    line-height: 1.2;
-    text-align: center;
-  }
-  
-  .phrase h2 {
-    position: static;
-    font-size: 3rem;
-    margin: 15px 0;
-  }
-  
-  .phrase h3 {
     font-size: 1.2rem;
-    line-height: 1.4;
-    text-align: center;
   }
   
-  .phrase h1, .phrase h3 {
-    animation: none;
-    overflow: visible;
-    text-wrap: wrap;
+  .first img {
+    border-radius: 50%;
   }
   
-  .three-things {
-    flex-direction: column;
-    align-items: center;
-    margin: 50px 0;
-  }
-  
-  .three-things span {
-    width: 90%;
-    margin-bottom: 30px;
-  }
-  
-  #tt3 {
-    font-size: 2.5rem;
-  }
-  
-  .head-one {
-    flex-direction: column;
-    margin: 50px 20px;
-  }
-  
-  .welcome-text, .first img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .welcome-text h1 {
-    font-size: 1.8rem;
-  }
-  
-  .welcome-text p {
+  .Food h1 {
     font-size: 1.1rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    margin: 40px 0;
-    padding: 10px;
-  }
-  
-  .places {
-    flex-direction: column;
-    margin: 40px 20px;
+    width: auto;
     height: auto;
-    overflow-x: visible;
-  }
-  
-  .hover {
-    width: 100%;
-    margin: 20px 0;
-  }
-  
-  .places img, .places h1, .places p {
-    width: 100%;
-    margin: 0;
-  }
-  
-  .places p {
-    height: auto;
-    padding: 20px;
-  }
-  
-  .Food {
-    margin: 30px 20px;
-  }
-  
-  .one, .two {
-    flex-direction: column;
-    margin-bottom: 50px;
+    padding: auto;
   }
   
   .Food img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 0 auto;
+    width: 270px;
+    height: 270px;
   }
-  
+
   .Food p {
-    width: 100%;
-    height: auto;
-    margin-top: 30px;
-    padding: 20px;
+    font-size: 1rem;
+    padding: auto;
   }
-  
-  .one h1, .two h1 {
-    position: relative;
-    margin: -50px auto 20px auto;
-    width: 80%;
-    text-align: center;
+
+  .one, .two {
+    margin: 10px 40px;
   }
-  
-  .fourth-content {
-    flex-direction: column;
-    align-items: center;
+
+  #stay-hover img {
+   margin-right: 15px;
   }
   
   .card {
-    width: 90%;
-    margin: 20px 0;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .fourth-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
   }
   
-  .stays {
-    margin: 50px 20px;
+  .places, .Food, .stays{
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;    
+    overflow-x: auto;  
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .places img {
+    width: 300px;    
+    height: 320px;
+    flex: 0 0 auto;         
+    margin: 0px 35px;
+  }
+
+  .places p {
+    width: 300px;
+    height: 550px;
+    font-size: 1rem;
+    flex: 0 0 auto;         
+    margin-top: -10px;
+    padding: auto;
+    margin-left: 35px;
+  }
+
+  .places h1 {
+    font-size: 1.3rem;
+    width: 300px;           
+    flex: 0 0 auto;         
+    margin-top: -36px;
+    margin-left: 35px;
+    padding: auto;
+  }
+
+  .welcome {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  
-  #stay-hover {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
+
+  .welcome img {
+    margin-left: 0;
+    width: 300px;
+    height: 300px;
   }
-  
-  .stays img, .stays p {
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  .media {
-    flex-direction: column;
-    margin: 30px 20px;
-  }
-  
-  .media h1 {
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
-  
-  .footer-content {
-    flex-direction: column;
+
+  .phrase {
+    position: static;
     text-align: center;
+    margin-top: 30px;
   }
-  
-  .footer-column {
-    margin-bottom: 30px;
-  }
-  
-  .footer-column h3::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
 
-@media (min-width: 600px) and (max-width: 768px) {
-  .nav-bar p {
-    font-size: 2rem;
-    margin-left: 120px;
-  }
-  
-  .nav-list li {
-    font-size: 18px;
-    padding: 12px;
-    margin: 10px 5px;
-  }
-  
-  .welcome img {
-    width: 350px;
-    height: 350px;
-    margin-left: 300px;
-  }
-  
-  .phrase {
-    left: 30px;
-    top: 150px;
-  }
-  
   .phrase h1 {
-    font-size: 2.5rem;
-    line-height: 80px;
-  }
-  
-  .phrase h2 {
-    font-size: 5rem;
-    top: 30px;
-  }
-  
-  .phrase h3 {
-    font-size: 1.5rem;
-    line-height: 50px;
-  }
-  
-  .three-things span {
-    width: 45%;
-  }
-  
-  .head-one {
-    margin: 70px 30px;
-  }
-  
-  .welcome-text, .first img {
-    width: 45%;
-  }
-  
-  .places {
-    margin: 70px 30px;
-  }
-  
-  .Food {
-    margin: 40px 30px;
-  }
-  
-  .Food img {
-    width: 45%;
-  }
-  
-  .Food p {
-    width: 45%;
-  }
-}
-
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .nav-bar p {
-    font-size: 2.2rem;
-    margin-left: 150px;
-  }
-  
-  .welcome img {
-    width: 400px;
-    height: 400px;
-    margin-left: 400px;
-  }
-  
-  .phrase {
-    left: 40px;
-    top: 180px;
-  }
-  
-  .phrase h1 {
-    font-size: 3rem;
-    line-height: 100px;
-  }
-  
-  .phrase h2 {
-    font-size: 6rem;
-    top: 40px;
-  }
-  
-  .phrase h3 {
-    font-size: 1.7rem;
+    font-size: 2em;
     line-height: 60px;
   }
-  
-  .three-things span {
-    width: 30%;
-  }
-  
-  .head-one {
-    margin: 80px 40px;
-  }
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1200px) {
-  .welcome img {
-    width: 450px;
-    height: 450px;
-    margin-left: 550px;
-  }
-  
-  .phrase h1 {
-    font-size: 3.5rem;
-  }
-  
   .phrase h2 {
-    font-size: 8rem;
+    position: static;
+    font-size: 4em;
+    margin: 20px 0;
   }
-  
+
   .phrase h3 {
+    font-size: 1em;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin: 50px 0;
+  }
+
+  .welcome-text h1,
+  .welcome-text p {
     font-size: 1.8rem;
+    margin: 20px 15px;
+  }
+
+  .welcome-text p {
+    font-size: 1.2rem;
+  }
+
+  #tt3 {
+    font-size: 3rem;
+  }
+.media h1 {
+  font-size: 1.2rem;
+}
+  .media a {
+    margin-bottom: 20px;
+  }
+  .three-things span p {
+    font-size: 1.1rem;
   }
 }
-
-
-@media (min-width: 1200px) {
-
-}
-
-
-@media (max-width: 768px) and (orientation: landscape) {
-  .nav-bar {
-    flex-direction: row;
-  }
-  
-  .nav-list {
-    margin-top: 0;
-  }
-  
-  .welcome {
-    flex-direction: row;
-  }
-  
-  .welcome img {
-    width: 40%;
-  }
-  
-  .phrase {
-    width: 55%;
-  }
-}
-
-
