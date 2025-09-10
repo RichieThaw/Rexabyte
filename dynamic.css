@@ -954,17 +954,20 @@ h2:hover::before {
   .nav-bar a {
     display: flex;
     justify-content: center;
+        align-items: center;
   }
 
   .nav-bar a img {
     width: 80px;
     height: 80px;
+        align-items: center;
   }
 
   .nav-bar p {
     position: static;
     margin: 10px 0;
     text-align: center;
+    font-size: 1.5rem;
   }
 
   .nav-list {
