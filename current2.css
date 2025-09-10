@@ -484,7 +484,7 @@ body {
     align-items: center;
   }
 
-  .card p,.fourth-container {
+  .card p,.fourth-container, .fourth-container img {
     width: 90%;
   }
 
