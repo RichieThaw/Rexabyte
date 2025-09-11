@@ -204,11 +204,15 @@ body {
 }
 
 .onee img{
-  width: 180px;
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
 }
 
 .two img , .three img{
-  width: 230px;
+  width: 200px;
+  height: 150px;  
+  margin-left: 10px;
 }
 
 .sec-content, .third-content, .fourth-content {
