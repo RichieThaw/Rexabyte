@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rexabyte.netlify.app/sitemap-2.xml
+Sitemap: https://rexabyte.onrender.com/sitemap-2.xml
