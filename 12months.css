@@ -9,7 +9,7 @@
 
 body {
   background-color: #000000;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .nav-list-second button {
@@ -225,7 +225,7 @@ body {
 .card {
   background-color: #DAF1DE;
   color: rgb(3, 3, 3);
-  height: 400px;
+  height: 430px;
   border-radius: 20px;
   margin: 30px;
   padding: 20px;
@@ -253,7 +253,7 @@ body {
   margin: 50px 100px;
   border-radius: 20px;
   background-color: #8A9A5B;
-  color: #D0F0C0;
+  color: white;
   transition: transform 0.5s;
 }
 
@@ -265,7 +265,6 @@ body {
 .famous h1 {
   font-weight: 800;
   text-transform: uppercase;
-  color: #D0F0C0;
   margin-bottom: 20px;
 }
 
