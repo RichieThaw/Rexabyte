@@ -204,13 +204,11 @@ body {
 }
 
 .onee img{
-  width: 30%;
-  border-radius: 20px;
+  width: 180px;
 }
 
 .two img , .three img{
-  width: 50%;
-  border-radius: 20px;
+  width: 230px;
 }
 
 .sec-content, .third-content, .fourth-content {
