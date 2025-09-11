@@ -9,7 +9,7 @@
 
 body {
   background-color: #000000;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .nav-list-second button {
@@ -252,14 +252,14 @@ body {
   justify-content: space-between;
   margin: 50px 100px;
   border-radius: 20px;
-  background-color: #002347;
+  background-color: #8A9A5B;
   color: #D0F0C0;
   transition: transform 0.5s;
 }
 
 .famous:hover {
   transform: translateY(-15px);
-  box-shadow: 3px 3px 20px #002347;
+  box-shadow: 3px 3px 20px #8A9A5B;
 }
 
 .famous h1 {
