@@ -34,7 +34,6 @@ body {
   font-family: "Modak", system-ui;
   font-weight: 400;
   font-style: italic;
-  text-transform: uppercase;
   animation-name: gradient;
   animation-duration: 4s;
   animation-iteration-count: infinite;
