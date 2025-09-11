@@ -290,8 +290,8 @@ body {
 .one {
   background-color: #D0F0C0;
   margin: 0 20px;
-  width: 350px;
-  height: 250px;
+  width: 380px;
+  height: 300px;
   padding: 20px;
   border-radius: 20px;
   transition: transform 0.5s;
