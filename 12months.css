@@ -204,12 +204,12 @@ body {
 }
 
 .onee img{
-  width: 30%;
+  width: 200px;
   border-radius: 20px;
 }
 
 .two img , .three img{
-  width: 40%;
+  width: 250px;
   border-radius: 20px;
 }
 
