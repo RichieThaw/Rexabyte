@@ -31,7 +31,9 @@ body {
   position: absolute;
   margin-top: 30px;
   margin-left: 180px;
-  font-weight: bolder;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
   text-transform: uppercase;
   animation-name: gradient;
   animation-duration: 4s;
