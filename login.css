@@ -38,7 +38,7 @@ body {
   margin-left: 180px;
    font-family: "Sigmar One", sans-serif;
   font-weight: 400;
-  font-style: normal;  text-transform: uppercase;
+  font-style: italic;  text-transform: uppercase;
   animation-name: gradient;
   animation-duration: 4s;
   animation-iteration-count: infinite;
