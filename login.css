@@ -89,6 +89,7 @@ body {
   cursor: pointer;
   transition: color 0.5s;
   font-size: 3.2rem;
+ color: white;
   font-weight: 900;
   text-align: center;
 }
