@@ -205,7 +205,7 @@
         form textarea:hover,
         form button:hover {
           background-color: rgb(0, 0, 0, 0.5);
-          color: red;
+          color: lightblue;
         }
 
         form ::placeholder {
@@ -249,10 +249,9 @@
         }
 
         .contact i:hover {
-          color: pink;
+          color: lightblue;
         }
 
-        /* Media Queries for Responsiveness */
         @media (max-width: 768px) {
           .nav-bar {
             flex-direction: column;
