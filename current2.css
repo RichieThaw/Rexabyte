@@ -281,11 +281,13 @@ body {
   margin: 0 20px;
   padding: 50px;
   border-radius: 20px;
-  transition: transform 0.5s;
+  transition: all 0.5s;
 }
 
 .one:hover {
   transform: translateY(-10px);
+    box-shadow: 3px 3px 20px #D0F0C0;
+
 }
 
 .icon i {
