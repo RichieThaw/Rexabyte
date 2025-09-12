@@ -260,7 +260,7 @@ body {
 
 .third-section span:hover{
   transform: translateY(-15px);
-  box-shadow: 3px 3px 20px #002347;
+  box-shadow: 3px 3px 20px #FD6600;
 }
 
 .sec-container, .third-container {
