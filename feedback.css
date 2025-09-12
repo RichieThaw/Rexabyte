@@ -238,7 +238,7 @@
         }
 
         .contact i {
-          transition: color 0.5s;
+          transition: all 0.5s;
           padding: 10px;
           margin: 0 5px;
         }
@@ -250,6 +250,7 @@
 
         .contact i:hover {
           color: lightblue;
+                 transform: scale(1.05);
         }
 
         @media (max-width: 768px) {
