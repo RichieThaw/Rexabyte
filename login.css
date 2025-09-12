@@ -1,5 +1,4 @@
-* {
-  margin: 0;
+23px  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -208,7 +207,9 @@ body {
 
 .click button a {
   text-decoration: none;
+  
   color:  white;
+  font-size: 23px;
   transition: color 0.5s;
 }
 
