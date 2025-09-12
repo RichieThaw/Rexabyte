@@ -88,11 +88,7 @@ body {
 .login-box h1 {
   cursor: pointer;
   transition: color 0.5s;
-  font-size: 3rem;
-   background-image: linear-gradient(45deg, #43ced6, #d2e43a 50%, #93ec10 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3.2rem;
   font-weight: 900;
   text-align: center;
 }
@@ -199,6 +195,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+ margin-bottom: 20px;
 }
 
 .click button {
@@ -206,14 +203,11 @@ body {
   width: 90px;
   padding: 5px;
   font-size: 25px;
-   background-image: linear-gradient(45deg, #43ced6, #d2e43a 50%, #93ec10 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
   border-radius: 7px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: all 0.5s;
 }
 
 .click button a {
@@ -224,7 +218,7 @@ body {
   transition: color 0.5s;
 }
 
-.click button a:hover {
+.click button:hover {
   color: rgb(0, 0, 0);
 }
 
