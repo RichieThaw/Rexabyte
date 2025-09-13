@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Oleo+Script:wght@400;700&family=Sigmar+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +20,9 @@ body {
 }
 
 .nav-bar img {
-  width: 100px;
-  height: 100px;
-  margin: 10px 40px;
+  width: 70px;
+  height: 70px;
+  margin: 10px 60px;
   transition: transform 0.5s;
 }
 .nav-bar img:hover {
@@ -28,12 +30,14 @@ body {
 }
 
 .nav-bar p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: absolute;
-  margin-top: 30px;
+    padding: 5px;
+  margin-top: 15px;
   margin-left: 180px;
-  font-weight: bolder;
-  text-transform: uppercase;
+ font-family: "Sigmar One", sans-serif;
+  font-weight: 400;
+  font-style: italic;   text-transform: uppercase;
   animation-name: gradient;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -48,8 +52,6 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0,0.9);
-  height: 100%;
-  margin-bottom: 10px;
 }
 
 .nav-list {
@@ -58,11 +60,11 @@ body {
 }
 
 .nav-list li {
-  font-size: 27px;
+  font-size: 1.2rem;
   display: inline-block;
   justify-content: space-between;
   margin: 20px 10px;
-  padding: 20px;
+  padding: 14px;
   border-bottom: 3px solid #D0F0C0;
   transition: all 0.5s ;
 }
@@ -90,7 +92,6 @@ body {
   font-size: 24px;
   border-radius: 40%;
   transition: background-color 0.5s ;
-  padding: 14px;
   transition: all 0.5s;
 }
 .nav-list-second li:hover {
@@ -99,7 +100,7 @@ body {
 }
 
 #icon {
-  font-size: 30px;
+  font-size: 27px;
   text-decoration: none;
   color: inherit;
   color: white;
@@ -108,7 +109,7 @@ body {
 
 .nav-list-second a {
   font-weight: 900;
-  font-size: 27px;
+  font-size: 24px;
   transition: color 0.5s;
   color: rgb(255, 255, 255);
   transition: all 0.5s;
@@ -130,13 +131,14 @@ body {
   background-color: rgba(255, 255, 255,0.5);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  padding: 10px 0;
-  z-index: 1;
+  padding: 15px;
+  z-index: 5;
 }
 .nav-bar-second ul {
   display: flex;
   justify-content: space-around;
 }
+
 .head {
   font-size: 2.5rem;
   text-align: center;
