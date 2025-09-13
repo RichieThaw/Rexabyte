@@ -455,7 +455,7 @@ body {
   text-align: center;
   position: relative;
   color: #000000;
-  left: 10px;
+  left: 12px;
   bottom: 115px;
   padding: 10px;
   background-color: rgba(255, 255, 255,0.1);
@@ -497,7 +497,7 @@ body {
   position: relative;
   color: #000000;
   bottom: 115px;
-  left: 10px;
+  left: 12px;
   padding: 10px;
   background-color: rgba(255, 255, 255,0.1);
   backdrop-filter: blur(10px);
