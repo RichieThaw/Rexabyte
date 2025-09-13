@@ -131,7 +131,7 @@ body {
   background-color: rgba(255, 255, 255,0.5);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  padding: 10px 0;
+  padding: 15px;
   z-index: 5;
 }
 .nav-bar-second ul {
