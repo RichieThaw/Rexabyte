@@ -72,7 +72,7 @@
           padding: 15px;     
           border-bottom: 3px solid #D0F0C0;
           transition: all 0.5s;
-          gap: 10px;
+          right: 10px;
         }
 
         .nav-list li:hover {
