@@ -18,13 +18,13 @@
           justify-content: space-between;
           align-items: center;
           background-color: rgba(0, 0, 0, 0.9);
-          padding: 30px;
+          padding: 10px;
           flex-wrap: wrap;
         }
 
         .nav-bar img {
-          width: 100px;
-          height: 100px;
+          width: 80px;
+          height: 80px;
           transition: transform 0.5s;
         }
 
@@ -71,7 +71,7 @@
         .nav-list li {
           font-size: 1.2rem;
           margin: 10px;
-          padding: 20px;     
+          padding: 15px;     
                border-bottom: 3px solid #D0F0C0;
 
           transition: all 0.5s;
