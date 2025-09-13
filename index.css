@@ -63,7 +63,7 @@ body {
   display: inline-block;
   justify-content: space-between;
   margin: 20px 10px;
-  padding: 17px;
+  padding: 14px;
   border-bottom: 3px solid #D0F0C0;
   transition: all 0.5s ;
 }
@@ -92,6 +92,7 @@ body {
   border-radius: 40%;
   transition: background-color 0.5s ;
   transition: all 0.5s;
+  padding: 10px;
 }
 .nav-list-second li:hover {
     transform: translateY(-7px);
