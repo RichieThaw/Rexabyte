@@ -257,7 +257,7 @@ body {
 
 .third-section span:hover{
   transform: translateY(-15px);
-  box-shadow: 3px 3px 20px #FD6600;
+  box-shadow: 3px 3px 20px  #002347;
 }
 
 .sec-container, .third-container {
@@ -277,7 +277,7 @@ body {
 }
 
 .third-section span:hover .third-container{
-  border: 5px solid #52677D;
+  border: 5px solid #FD6600;
 }
 
 .sec-container {
