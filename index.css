@@ -326,7 +326,7 @@ body {
   font-size: 35px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  top: -130px;
+  top: -145px;
   left: 52px;
   padding-left: 20px;
   padding: 10px;
@@ -539,13 +539,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0px 40px;
- padding: 10px;
 }
 .current img {
   width: 500px;
   height: 350px;
   border-radius: 100px 10px 10px 10px;
-  margin: 20px 80px;
+  margin: 0px 80px;
   border: 2px solid #FD6600;
 }
 
