@@ -38,7 +38,7 @@
           position: absolute;
           padding: 5px;
           margin-top: 30px;
-          margin-left: 140px;
+          margin-left: 100px;
           font-family: "Sigmar One", sans-serif;
           font-weight: 400;
           font-style: normal;
@@ -48,7 +48,6 @@
           animation-iteration-count: infinite;
           margin: 0 15px;
           color: white;
-          text-align: center;
         }
 
         @keyframes gradient {
@@ -63,7 +62,6 @@
 
         .search {
           display: none;
-          /* Hidden on mobile, can be implemented later if needed */
         }
 
         .nav-list {
@@ -75,10 +73,8 @@
 
         .nav-list li {
           font-size: 1.2rem;
-          margin: 10px;
           padding: 15px;     
-               border-bottom: 3px solid #D0F0C0;
-
+          border-bottom: 3px solid #D0F0C0;
           transition: all 0.5s;
         }
 
