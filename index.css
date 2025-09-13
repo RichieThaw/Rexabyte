@@ -820,7 +820,7 @@ body {
 .footer-column h3 {
   font-size: 2rem;
   font-weight: 600;
-  color::#ffffff;
+  color::#D0F0C0;
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -848,7 +848,7 @@ body {
 
 .footer-column h3:hover, .footer-links  li a:hover,
 .footer-links li:hover {
-  color: #D0F0C0;
+  color:lightblue;
 }
 
 
