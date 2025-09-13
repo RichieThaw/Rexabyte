@@ -20,9 +20,9 @@ body {
 }
 
 .nav-bar img {
-  width: 100px;
-  height: 100px;
-  margin: 10px 40px;
+  width: 70px;
+  height: 70px;
+  margin: 10px 60px;
   transition: transform 0.5s;
 }
 .nav-bar img:hover {
@@ -53,7 +53,6 @@ body {
   justify-content: space-between;
   background-color: rgba(0, 0, 0,0.9);
   height: 100%;
-  margin-bottom: 10px;
 }
 
 .nav-list {
@@ -66,7 +65,7 @@ body {
   display: inline-block;
   justify-content: space-between;
   margin: 20px 10px;
-  padding: 20px;
+  padding: 15px;
   border-bottom: 3px solid #D0F0C0;
   transition: all 0.5s ;
 }
