@@ -820,7 +820,7 @@ body {
 .footer-column h3 {
   font-size: 2rem;
   font-weight: 600;
-  color: black;
+  color::#D0F0C0;
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -870,7 +870,7 @@ body {
   color: rgb(255, 255, 255);
 }
 .footer-links a {
-  color: #ffffff;
+  color::#D0F0C0;
   font-size: 1.2rem;
   font-weight: 600;
   text-decoration: none;
