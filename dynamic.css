@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Oleo+Script:wght@400;700&family=Sigmar+One&display=swap');
+20pxort url('https://fonts.googleapis.com/css2?family=Dongle&family=Oleo+Script:wght@400;700&family=Sigmar+One&display=swap');
 
 * {
   margin: 0;
@@ -336,7 +336,7 @@ h2:hover::before {
   display: flex;
   justify-content: space-between;
   margin:100px;
-  height: 925px;
+  height: 945px;
   overflow-x: scroll;
 }
 
