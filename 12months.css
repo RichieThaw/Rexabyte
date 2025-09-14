@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Oleo+Script:wght@400;700&family=Sigmar+One&display=swap');
+15pxort url('https://fonts.googleapis.com/css2?family=Dongle&family=Oleo+Script:wght@400;700&family=Sigmar+One&display=swap');
 
 * {
   margin: 0;
@@ -547,14 +547,14 @@ body {
   }
 
   .nav-list-second li {
-    padding: 10px 15px;
+    padding: 5px;
   }
 
    .nav-list-second li a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #icon {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .main {
