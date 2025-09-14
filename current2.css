@@ -472,7 +472,7 @@ body {
   }
 
   .card h3 {
-    width: 90%;
+    width: 100%;
   }
 
   .card, .one {
@@ -489,11 +489,11 @@ body {
   }
 
   .card p, .fourth-container img {
-    width: 90%;
+    width: 100%;
   }
   
 .fourth-container {
-  width: 90%;
+  width: 100%;
 }
   
   .footer-content {
