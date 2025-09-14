@@ -1034,6 +1034,7 @@ h2:hover::before {
   }
   .fourth-content {
     width: 80%;
+    justify-content: center;
     display: flex;
     flex-direction: column; 
   }
