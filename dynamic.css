@@ -1031,12 +1031,15 @@ h2:hover::before {
   .card {
     width: 300px;
     margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
   }
+
   .fourth-content {
     width: 80%;
     justify-content: center;
     display: flex;
-    align-items: center;
     flex-direction: column; 
   }
   
