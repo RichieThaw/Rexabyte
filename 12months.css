@@ -434,7 +434,6 @@ body {
   text-transform: uppercase;
 }
 
-/* Laptop screens (1024px and below) */
 @media (max-width: 1024px) {
   .nav-bar img {
     width: 80px;
@@ -546,7 +545,7 @@ body {
   }
 
   .nav-list-second li {
-    padding: 1px;
+    
   }
 
    .nav-list-second li a {
