@@ -480,7 +480,7 @@ body {
   }
 
   .fourth-content, .third-content {
-    margin-left: 40px;
+    margin-left: 0;
   }
 
   .third-content, .fourth-content, .seventh-content {
