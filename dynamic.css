@@ -355,8 +355,7 @@ h2:hover::before {
 }
 
 .places img {
-  width: 340px;
-  height: 300px;
+  widtpadding: 300px;
   border-radius: 20px 20px 0 0;
   margin: 0 20px;
 }
@@ -989,14 +988,14 @@ h2:hover::before {
   }
 
   .nav-list-second li {
-    padding: 8px;
+    padding: 5px;
   }
 
   .nav-list-second li a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #icon {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .first img {
