@@ -1036,6 +1036,7 @@ h2:hover::before {
     width: 80%;
     justify-content: center;
     display: flex;
+    align-items: center;
     flex-direction: column; 
   }
   
