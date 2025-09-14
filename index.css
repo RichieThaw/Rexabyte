@@ -821,7 +821,7 @@ body {
 .footer-column h3 {
   font-size: 2rem;
   font-weight: 600;
-  color:#D0F0C0;
+  color:#ffffff;
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -859,7 +859,7 @@ body {
 
 .footer-links li {
   margin: 0.7rem;
-  color:#D0F0C0;
+  color:#ffffff;
   font-size: 1.1rem;
   font-weight: 600;
   transition: color 0.5s;
@@ -868,10 +868,10 @@ body {
 #foot {
   margin-right: 20px;
   font-size: 1.7rem;
-  color:#D0F0C0 ;
+  color:#ffffff;
 }
 .footer-links a {
-  color:#D0F0C0;
+  color:#ffffff;
   font-size: 1.2rem;
   font-weight: 600;
   text-decoration: none;
