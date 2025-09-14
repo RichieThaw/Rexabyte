@@ -337,7 +337,7 @@ h2:hover::before {
   display: flex;
   justify-content: space-between;
   margin:100px;
-  height: 945px;
+  height: 965px;
   overflow-x: scroll;
 }
 
