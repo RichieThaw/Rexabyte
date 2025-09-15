@@ -10,12 +10,12 @@
 <url>
   <loc>https://rexabyte.onrender.com/</loc>
   <lastmod>2025-09-11T06:07:19+00:00</lastmod>
-  <priority>1.00</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rexabyte.onrender.com/index.html</loc>
   <lastmod>2025-09-11T06:07:19+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rexabyte.onrender.com/feedback.html</loc>
@@ -152,6 +152,7 @@
   <lastmod>2025-09-11T06:07:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 
 
 </urlset>
