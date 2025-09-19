@@ -270,11 +270,11 @@
 
                   .nav-list {
             flex-direction: row;
-            align-items: center;
 
                   }
                   
           .nav-list li {
+                    width: 100%;
             font-size: 1rem;
             padding: 8px 12px;
           }
@@ -304,8 +304,6 @@
 
           .nav-list {
             flex-direction: row;
-            align-items: center;
-
           }
 
           .nav-list li {
