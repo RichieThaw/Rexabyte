@@ -266,6 +266,7 @@ body {
   .nav-list {
     position: static;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -289,46 +290,4 @@ body {
           }
         }
 
-        @media (max-width: 480px) {
-          .nav-bar img {
-            width: 60px;
-            height: 60px;
-          }
-
-          .nav-bar p {
-            font-size: 1.5rem;
-          }
-
-          .nav-list {
-            flex-direction: row;
-          }
-
-          .nav-list li {
-            width: 100%;
-            text-align: center;
-            margin: 5px 0;
-          }
-
-          .h h1 {
-            font-size: 1.3rem;
-          }
-
-          .h p {
-            font-size: 0.9rem;
-          }
-
-          form input,
-          form textarea,
-          form button {
-            font-size: 0.9rem;
-          }
-
-          .contact {
-            font-size: 1.8rem;
-            flex-wrap: wrap;
-          }
-
-          .contact i {
-            padding: 5px;
-          }
-        }
+       
