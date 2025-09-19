@@ -219,13 +219,13 @@ body {
           margin-top: 30px;
           padding: 5px;
           cursor: pointer;
-          animation-name: icon;
+          animation-name: ;
           animation-duration: 3s;
           animation-iteration-count: 2;
           width: 100%;
         }
 
-        @keyframes icon {
+        @keyframes  {
           from {
             color: white;
           }
