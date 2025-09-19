@@ -269,12 +269,12 @@ body {
 .seventh-content {
   display: flex;
   justify-content: space-between;
-  margin: 50px 30px;
+  margin: 50px;
 }
 
 .one {
   background-color: #D0F0C0;
-  margin: 0 20px;
+  margin: 0 10px;
   width:260px;
   padding: 30px;
   border-radius: 20px;
