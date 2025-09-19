@@ -201,18 +201,7 @@ body {
   margin: 50px 0;
 }
 
-.three {
-  display: flex;
-  justify-content: center;
-}
-
-.onee img{
-  width: 220px;
-  height: 200px;
-  margin-left: 10px;
-}
-
-.two img , .three img{
+.two img , .one img{
   width: 220px;
   height: 200px;  
   margin-left: 10px;
