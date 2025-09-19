@@ -116,10 +116,7 @@ body {
 }
 
 .nav-list-second li:hover a, .nav-list-second li:hover #icon {
-  background-image: linear-gradient(45deg, #43ced6, #d2e43a 50%, #93ec10 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: #D0F0C0;
   text-shadow: 0 10px 8px #D0F0C0, 0px 0px 2px #D0F0C0, 0 0 0px #D0F0C0;
 }
 
