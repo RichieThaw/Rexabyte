@@ -123,11 +123,6 @@ body {
           }
         }
 
-        .h h1:hover,
-        .h p:hover {
-          color: lightblue;
-        }
-
         .feedback {
           display: flex;
           flex-direction: column;
