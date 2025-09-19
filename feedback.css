@@ -271,7 +271,6 @@
           .nav-list li {
             font-size: 1rem;
             padding: 8px 12px;
-                            flex-direction: column;    
           }
 
           .h h1 {
@@ -298,7 +297,7 @@
           }
 
           .nav-list {
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
 
           }
@@ -306,7 +305,6 @@
           .nav-list li {
             width: 100%;
             text-align: center;
-                             flex-direction: column;   
             margin: 5px 0;
           }
 
