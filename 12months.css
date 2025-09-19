@@ -195,16 +195,20 @@ body {
     }
   }
 
+.branch {
+margin-left: -20px;
+}
+
 .onee, .two {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0;
+  margin: 50px 0 30px 0;
 }
 
 .two img , .onee img{
   width: 220px;
   height: 200px;  
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .sec-content, .third-content, .fourth-content {
