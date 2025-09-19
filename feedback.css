@@ -93,21 +93,12 @@ body {
           color: black;
           transition: color 0.5s;
           cursor: pointer;
-          animation-name: paragraph;
+          animation-name: paragraph2;
           animation-duration: 3s;
           animation-iteration-count: 2;
           margin-bottom: 15px;
         }
 
-        @keyframes paragraph {
-          from {
-            color: rgb(255, 0, 0);
-          }
-
-          to {
-            color: black;
-          }
-        }
 
         .h p {
           font-size: 1.2rem;
@@ -124,11 +115,11 @@ body {
 
         @keyframes paragraph2 {
           from {
-            color: rgb(0, 0, 0);
+            color: grey;
           }
 
           to {
-            color: lightblue;
+            color: black;
           }
         }
 
