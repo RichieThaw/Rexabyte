@@ -550,7 +550,7 @@ h2:hover::before {
   transition: color 0.5s;
 }
 
-stays img {
+.stays img {
   width: 300px;
   height: 200px;
   border-radius: 50px 10px 30px 10px;
