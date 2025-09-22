@@ -1149,12 +1149,13 @@ body {
  .places p {
   font-size: 1.3rem;
   width: 326px;
+   margin-top: -25px;
   margin-left: -20px;
  }
 
  .beach p , .mountain p {
     width: 326px;
-  margin-left: 22px;
+  margin-left: 20px;
   font-size: 1.3rem;
  }
 
