@@ -562,12 +562,17 @@ h2:hover::before {
    display: flex;
   justify-content: space-between;
   margin: 0px 160px;
+  width: 100%;
 }
 
 #stay-hover {
   transition: transform 0.5s;
   margin: 40px 20px;
   height: 500px;
+   color: #002347;
+  background-color: rgba(188, 188, 188, 0.9);
+  border-radius: 60px 10px 30px 10px;
+  padding: 10px;
 }
 
 #stay-hover button {
@@ -576,18 +581,19 @@ h2:hover::before {
   padding: 10px;
   font-size: 20px;
   margin-top: 20px;
+    transition: all 0.5s;
+
+}
+
+#stay-hover button:hover {
+  background-color: #ffffff;
+  color: #002347;
 }
 
 #stay-hover:hover {
   transform: scale(1.05);
 }
 
-.stays span {
-  color: #002347;
-  background-color: rgba(188, 188, 188, 0.9);
-  border-radius: 60px 10px 30px 10px;
-  margin-left: 10px;
-}
 .stays p {
   width: 300px;
   font-size: 20px;
