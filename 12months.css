@@ -105,6 +105,7 @@ body {
   color: inherit;
   color: white;
   transition: all 0.5s;
+  font-style: italic;
 }
 
 .nav-list-second a {
@@ -112,12 +113,13 @@ body {
   font-size: 24px;
   transition: color 0.5s;
   color: rgb(255, 255, 255);
-  transition: all 0.5s;
+  transition: all 0.5s;  
+  font-style: italic;
 }
 
 .nav-list-second li:hover a, .nav-list-second li:hover #icon {
-    color: #D0F0C0;
-  text-shadow: 0 10px 8px #D0F0C0, 0px 0px 2px #D0F0C0, 0 0 0px #D0F0C0;
+    text-shadow: 0 10px 5px #D0F0C0;
+
 }
 
 .nav-bar-second {
