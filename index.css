@@ -116,8 +116,8 @@ body {
 }
 
 .nav-list-second li:hover a, .nav-list-second li:hover #icon {
-  color: #D0F0C0;
-  text-shadow: 0 10px 8px #D0F0C0, 0px 0px 2px #D0F0C0, 0 0 0px #D0F0C0;
+   text-shadow: 0 10px 5px lightblue;
+
 }
 
 .nav-bar-second {
