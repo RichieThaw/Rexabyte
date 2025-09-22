@@ -1150,19 +1150,21 @@ body {
   font-size: 1.3rem;
   width: 326px;
   margin-left: -20px;
-   top: 10px;
+   top: 15px;
  }
 
  .beach p , .mountain p {
     width: 326px;
   margin-left: 20px;
   font-size: 1.3rem;
+   top: 15px;
  }
 
  .asia p {
   width: 326px;
   margin-left: 10px;
   font-size: 1.3rem;
+   top: 10px;
  }
  
  .current img {
