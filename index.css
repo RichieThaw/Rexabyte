@@ -1140,9 +1140,9 @@ body {
  }
 
   .places img, .beach img, .mountain img,
-  .asia img, .stays img, .map img{
+  .asia img, .map img{
     width: 330px;
-    height: 270px;
+    height: 240px;
    margin: 0 30px;
   }
 
@@ -1154,7 +1154,7 @@ body {
 
  .beach p , .mountain p {
     width: 326px;
-  margin-left: 25px;
+  margin-left: 22px;
   font-size: 1.3rem;
  }
 
@@ -1180,7 +1180,7 @@ width: 350px;
 
  .stays img {
   width: 280px;
-   height: 250px;
+   height: 200px;
   margin: 30px 25px;
  }
  .new-info {
