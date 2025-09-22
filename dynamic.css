@@ -106,6 +106,7 @@ body {
   color: inherit;
   color: white;
   transition: all 0.5s;
+    font-style: italic;
 }
 
 .nav-list-second a {
@@ -114,11 +115,11 @@ body {
   transition: color 0.5s;
   color: rgb(255, 255, 255);
   transition: all 0.5s;
+    font-style: italic;
 }
 
 .nav-list-second li:hover a, .nav-list-second li:hover #icon {
-  color: #D0F0C0;
-  text-shadow: 0 10px 8px #D0F0C0, 0px 0px 2px #D0F0C0, 0 0 0px #D0F0C0;
+   text-shadow: 0 10px 5px lightblue;
 }
 
 .nav-bar-second {
@@ -367,8 +368,10 @@ h2:hover::before {
   padding: 30px;
   margin: -10px 20px;
   background-color: rgb(142, 142, 142);
-  color: #000000;
-  border-radius: 0 0 20px 20px;
+background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;   border-radius: 0 0 20px 20px;
   transition: color 30px0px.5s;
   transition: background-color 0.5s;
 }
