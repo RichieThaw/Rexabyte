@@ -562,7 +562,7 @@ h2:hover::before {
    display: flex;
   justify-content: space-between;
   margin: 0px 160px;
-  width: 100%;
+  overflow-x: scroll;
 }
 
 #stay-hover {
