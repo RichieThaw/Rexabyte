@@ -1149,7 +1149,7 @@ body {
  .places p {
   font-size: 1.3rem;
   width: 326px;
-   margin-top: 30px;
+   margin-bottom: -20px;
   margin-left: -20px;
  }
 
