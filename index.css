@@ -118,7 +118,7 @@ body {
 }
 
 .nav-list-second li:hover a, .nav-list-second li:hover #icon {
-   text-shadow: 0 10px 5px lightblue;
+   text-shadow: 0 10px 5px #D0F0C0;
 
 }
 
