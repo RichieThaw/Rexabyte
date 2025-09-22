@@ -561,14 +561,14 @@ h2:hover::before {
 .stays {
   display: flex;
   justify-content: space-between;
-  margin: 0px 160px;
+  margin: 0px 150px;
   overflow-x: scroll;
 }
 
 #stay-hover {
   transition: transform 0.5s;
   margin: 40px 20px;
-  height: 500px;
+  height: 540px;
   color: #002347;
   background-color: rgba(188, 188, 188, 0.9);
   border-radius: 60px 10px 30px 10px;
@@ -1047,6 +1047,7 @@ h2:hover::before {
 
   .stays {
     width: 100%;
+    margin-left: -50px;
   }
   
   .card {
