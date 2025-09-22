@@ -1048,8 +1048,14 @@ h2:hover::before {
     margin: 10px 40px;
   }
 
-  #stay-hover img {
-   margin-right: 15px;
+ .stays img {
+  width: 280px;
+   height: 250px;
+  margin: 30px 25px;
+ }
+
+  .stays {
+    width: 100%;
   }
   
   .card {
@@ -1072,10 +1078,6 @@ h2:hover::before {
     overflow-x: auto;  
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-  }
-
-  .stays {
-width: 100%;
   }
 
   .places img {
