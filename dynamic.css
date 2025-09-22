@@ -556,12 +556,6 @@ h2:hover::before {
   height: 500px;
 }
 
-#stay-hover {
-  transition: transform 0.5s;
-  margin: 40px 20px;
-  height: 500px;
-}
-
 #stay-hover:hover {
   transform: scale(1.05);
 }
