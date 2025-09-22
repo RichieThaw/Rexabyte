@@ -559,7 +559,7 @@ h2:hover::before {
 }
 
 .stays {
-   display: flex;
+  display: flex;
   justify-content: space-between;
   margin: 0px 160px;
   overflow-x: scroll;
@@ -569,10 +569,9 @@ h2:hover::before {
   transition: transform 0.5s;
   margin: 40px 20px;
   height: 500px;
-   color: #002347;
+  color: #002347;
   background-color: rgba(188, 188, 188, 0.9);
   border-radius: 60px 10px 30px 10px;
-  padding: 10px;
 }
 
 #stay-hover button {
@@ -581,8 +580,12 @@ h2:hover::before {
   padding: 10px;
   font-size: 20px;
   margin-top: 20px;
-    transition: all 0.5s;
-
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #002347;
+  color: #ffffff;
+  transition: all 0.5s;
 }
 
 #stay-hover button:hover {
