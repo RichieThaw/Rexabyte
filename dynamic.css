@@ -1073,6 +1073,11 @@ h2:hover::before {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
   }
+
+  .stays {
+width: 100%;
+  }
+
   .places img {
     width: 300px;    
     height: 320px;
