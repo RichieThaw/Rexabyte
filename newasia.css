@@ -251,7 +251,7 @@ body {
 }
 
 .third-section span {
-  background-color: lightblue;
+  background-color: #61a5c2;
 }
 
 .sec-section span:hover {
@@ -261,7 +261,7 @@ body {
 
 .third-section span:hover{
   transform: translateY(-15px);
-  box-shadow: 3px 3px 20px  lightblue;
+  box-shadow: 3px 3px 20px  #61a5c2;
 }
 
 .sec-container, .third-container {
@@ -313,7 +313,7 @@ body {
 
 .fourth-container {
   position: relative;
-  width: 250px;
+  width: 260px;
   height: 200px;
   overflow: hidden;
   border-radius: 20px 20px 0 0 ;
