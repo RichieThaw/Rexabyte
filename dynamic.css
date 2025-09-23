@@ -1053,9 +1053,12 @@ h2:hover::before {
   
   .card {
     width: 320px;
-    height: 400px;
     margin-bottom: 20px;
     margin-left: 60px; 
+  }
+
+  .color {
+    height: 400px;
   }
 
   .fourth-content {
