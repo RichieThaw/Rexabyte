@@ -245,6 +245,10 @@ body {
   -webkit-text-fill-color: transparent; 
 }
 
+.sec-section span p {
+  color: black;
+}
+
 .sec-section span {
   background-color: #52677D;
 
