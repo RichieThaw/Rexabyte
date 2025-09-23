@@ -368,6 +368,7 @@ h2:hover::before {
   padding: 30px;
   margin: -10px 20px;
   background-color: rgb(142, 142, 142);
+    border-radius: 0 0 20px 20px;
   color: balck;
   transition: all 0.5s;
 }
@@ -1051,8 +1052,8 @@ h2:hover::before {
   }
   
   .card {
-    width: 300px;
-    margin-bottom: 30px;
+    width: 320px;
+    margin-bottom: 20px;
     margin-left: 60px; 
   }
 
