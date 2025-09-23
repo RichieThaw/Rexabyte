@@ -251,7 +251,7 @@ body {
 }
 
 .third-section span {
-  background-color: #002347;
+  background-color: lightblue;
 }
 
 .sec-section span:hover {
@@ -261,7 +261,7 @@ body {
 
 .third-section span:hover{
   transform: translateY(-15px);
-  box-shadow: 3px 3px 20px  #002347;
+  box-shadow: 3px 3px 20px  lightblue;
 }
 
 .sec-container, .third-container {
@@ -277,7 +277,7 @@ body {
 }
 
 .sec-section span:hover .sec-container {
-  border: 5px solid #002347;
+  border: 5px solid lightblue;
 }
 
 .third-section span:hover .third-container{
@@ -328,7 +328,7 @@ body {
 
 
 .fourth-container img {
-  width: 250px;
+  width: 260px;
   height: 200px;
   transition: transform 0.5s;
 }
@@ -343,7 +343,7 @@ body {
 
 .card h3 {
   font-size: 25px;
-  width: 250px;
+  width: 260px;
   background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
   background-clip: text; 
   -webkit-background-clip: text; 
@@ -354,7 +354,7 @@ body {
 }
 
 .card p {
-  width: 250px;
+  width: 260px;
   height: 200px;
   font-size: 18px;
   color: rgb(255, 255, 255);
