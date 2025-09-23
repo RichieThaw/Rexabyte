@@ -1153,6 +1153,10 @@ body {
    top: 5px;
  }
 
+  .places {
+    margin-left: -15px
+  }
+  
  .beach p , .mountain p {
     width: 326px;
   margin-left: 20px;
