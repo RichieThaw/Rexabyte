@@ -528,7 +528,6 @@ h2:hover::before {
 .color {
   background-color: rgba(188, 188, 188, 0.9);
   padding: 20px;
-    border: 1px solid black;
   border-radius: 20px;
   width: 90%;
   height: 370px;
