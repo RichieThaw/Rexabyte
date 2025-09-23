@@ -237,7 +237,12 @@ body {
 
 .sec-section span h2, .third-section span h2{
   margin-bottom: 20px;
+  font-size: 2rem;
   font-weight: 800;
+  background-image: linear-gradient(45deg, #43ced6 , #d2e43a 50%, #93ec10 100%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
 }
 
 .sec-section span {
