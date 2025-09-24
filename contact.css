@@ -154,7 +154,6 @@ body {
 
 .question span:hover {
   transform: translateY(-15px);
-  box-shadow: 3px 3px 20px lightblue;
 }
 
 .question span i , .question span h2, .question p{
