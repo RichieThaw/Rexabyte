@@ -235,7 +235,7 @@ body {
 
         .contact i:hover {
           color: lightblue;
-                 transform: scale(1.05);
+                 transform: translateY(-10px);
         }
 
         @media (max-width: 768px) {
